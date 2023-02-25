@@ -4,8 +4,8 @@
 ## TO DO: 
 
 - [ ] Reverse Geocode of Coordinates
-	- [ ] Google Maps API @Nicole
-	- [ ] QGis Layer @Kent 
+	- [X] Google Maps API @Nicole -> Proceed with this
+	- [X] QGis Layer @Kent -> Have as backup
 
 - [ ] Data Cleaning
 	- [ ] Remove incomplete Records
