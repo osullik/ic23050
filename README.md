@@ -1,6 +1,38 @@
 # ic23050
 
 
+## Challenge Questions:
+
+1.	Among drivers involved in fatal crashes, what proportion are involved in crashes in communities where they live?
+	a.	Are there differences in the types of crashes and behavior factors in those crashes among “residents” versus those deemed to be not “from” the area?
+
+2.	Are there specific resident ZIP Codes that tend to produce higher-risk drivers that are involved in fatal crashes at a higher rate? 
+	a.	What are the population demographics of these high-risk driver producing ZIP Codes?
+
+
+## Constraints:
+
+1. Should be usable and interpretable by 'non-python' people
+2. Should be usable and interpretable by 'non-GIS' people
+
+
+## Goals:
+
+- [ ] Produce a report that addresses the answers to the two questions above. 
+- [ ] Prodice an interactive map to support the analysis and answers of the two questions above. 
+- [ ] Produce a tool that WTSC can use in future to convert reverse Geocode their data and become self-sufficient. 
+- [ ] Produce a presentation to communicate our findings. 
+
+## Timeline
+
+- [X] **25 1130 Feb 23:** Problem Brief
+- [ ] **25 Feb 23:** Geocoding Complete
+- [ ] **26 Feb 23:** Data Cleaning Complete
+
+- [ ] **02 1200 Mar 23:** 250 Word abstract due to Judges
+- [ ] **03 1600 Mar 23:** Full Rehearsal of Presentation 
+- [ ] **04 1000 Mar 23:** Judging Day Begins
+ 
 ## TO DO: 
 
 - [ ] Reverse Geocode of Coordinates
@@ -12,3 +44,10 @@
 
 - [ ] Data Dictionary Encoding
 	- [ ] Turn data Dictionary into actual atomic dictionary. 
+
+- [ ] Write Abstract **(DUE 23 1200 Mar 23)**
+
+
+## Links to Other Datasets:
+
+
