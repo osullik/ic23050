@@ -50,5 +50,10 @@
 
 
 ## Links to Other Datasets:
+- Zipcode and OSM tag from Lat/Long using [Geopy Geocoder Python library Nominatim](https://nominatim.org/)
+- Data from [data.census.gov](data.census.gov) augmenting zipcode using [uszipcode Python library](https://www.pythonpool.com/uszipcode-python/)
+- Possible library to augment OSM tags with road network info and construction status: [pyrosm Python Library](https://docs.osmcode.org/pyosmium/latest/)
+	- Distributions of proximity to speed cameras, stop lights, stop signs, etc.
+	- Roads under construction or not
 
 
