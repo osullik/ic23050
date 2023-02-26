@@ -45,7 +45,7 @@
 	- [ ] Remove incomplete Records 
 	- [X] Get Full addresses for each Lat/Long @ Nicole
 
-- [ ] Data Dictionary Encoding
+- [X] Data Dictionary Encoding @Kent
 	- [X] Turn data Dictionary into actual atomic dictionary. @Kent 
 		- [X] CrashDataFile
 		- [X] PersonDataFile
@@ -58,18 +58,18 @@
 		- [X] Tables7
 		- [X] Tables8
 		- [X] Tables9
-	- [ ] Manual Review & Edits
+	- [X] Manual Review & Edits @ Kent 
 		- [X] CrashDataFile
 		- [X] PersonDataFile
-		- [ ] Tables1
-		- [ ] Tables2
-		- [ ] Tables3
-		- [ ] Tables4
-		- [ ] Tables5
-		- [ ] Tables6
-		- [ ] Tables7
-		- [ ] Tables8
-		- [ ] Tables9
+		- [X] Tables1
+		- [X] Tables2
+		- [X] Tables3
+		- [X] Tables4
+		- [X] Tables5
+		- [X] Tables6
+		- [X] Tables7
+		- [X] Tables8
+		- [X] Tables9
 
 - [ ] Write Abstract **(DUE 02 1200 Mar 23)**
 
