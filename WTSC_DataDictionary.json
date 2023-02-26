@@ -123,7 +123,22 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Weather Condition 2",
-            "DATA": {}
+            "DATA": {
+                "00": "No Additional Atmospheric Conditions",
+                "01": "Clear",
+                "02": "Rain",
+                "03": "Sleet or Hail",
+                "04": "Snow",
+                "05": "Fog, Smog, Smoke",
+                "06": "Severe Crosswinds",
+                "07": "Blowing Sand, Soil, Dirt",
+                "08": "Other",
+                "10": "Cloudy",
+                "11": "Blowing Snow",
+                "12": "Freezing Rain or Drizzle",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "lightcond": {
             "TYPE": 1.0,
@@ -276,7 +291,7 @@
             "FORMAT": NaN,
             "LABEL": "Relation to Junction",
             "DATA": {
-                "201001": "-Later\nNon-Junction",
+                "01": "Non-Junction",
                 "02": "Intersection",
                 "03": "Intersection Related",
                 "04": "Driveway Access",
@@ -326,9 +341,9 @@
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "Land Use \n(2015 and later)",
+            "LABEL": "Land Use",
             "DATA": {
-                "20151": "From  on\nRural",
+                "1": "Rural",
                 "2": "Urban",
                 "6": "Trafficway not in State Inventory",
                 "8": "Not Reported",
@@ -339,7 +354,7 @@
             "TYPE": 2.0,
             "LENGTH": 1.0,
             "FORMAT": NaN,
-            "LABEL": "Roadway Ownership\n(2015 and later)",
+            "LABEL": "Roadway Ownership",
             "DATA": {
                 "1": "State Highway Agency",
                 "2": "County Highway Agency",
@@ -379,16 +394,18 @@
             "LABEL": "Type of Intersection",
             "DATA": {
                 "1": "No Intersection",
-                "2": "",
-                "43": "-Way  Intersection                                                                                                          T-Intersection",
+                "2": "4-Way Intersection",
+                "3": "T-Intersection                                                                                                          T-Intersection",
                 "4": "Y-Intersection",
                 "5": "Traffic Circle",
                 "6": "Roundabout",
                 "7": "Five-point or more",
                 "10": "L-Intersection",
                 "11": "Other Intersection Type",
-                "898": "/Not Reported",
-                "999": "/Unknown"
+                "88": "/Not Reported",
+                "89": "/Unknown",
+                "98": "/Not Reported",
+                "99": "/Unknown"
             }
         },
         "funclass": {
@@ -534,18 +551,10 @@
             "LABEL": "Posted Speed Limit",
             "DATA": {
                 "00": "No statutory limit",
-                "0580": "-Actual Speed Limit",
-                "0595": "-Actual Speed Limit",
+                "05-95": "Actual Speed Limit",
                 "98": "Not Reported",
                 "99": "Unknown"
             }
-        },
-        "NaN": {
-            "TYPE": NaN,
-            "LENGTH": NaN,
-            "FORMAT": NaN,
-            "LABEL": NaN,
-            "DATA": {}
         },
         "train_inv": {
             "TYPE": 1.0,
@@ -707,7 +716,7 @@
                 "1": "Yes"
             }
         },
-        "drdist_inv\n\n(NOTE: Variable name changed from dist_inv to drdist_inv for all data years)": {
+        "drdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
@@ -900,7 +909,9 @@
             "FORMAT": NaN,
             "LABEL": "Urban-Rural Classification",
             "DATA": {
-                "": "Translates numeric values in funclass\nRRural\nUUrban\nUnkUnknown"
+                "R": "Rural",
+                "U": "Urban",
+                "Unk": "Unknown"
             }
         },
         "dayweek": {

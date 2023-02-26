@@ -59,7 +59,7 @@
 		- [X] Tables8
 		- [X] Tables9
 	- [ ] Manual Review & Edits
-		- [ ] CrashDataFile
+		- [X] CrashDataFile
 		- [ ] PersonDataFile
 		- [ ] Tables1
 		- [ ] Tables2
