@@ -46,7 +46,7 @@
 	- [X] Get Full addresses for each Lat/Long @ Nicole
 
 - [ ] Data Dictionary Encoding
-	- [ ] Turn data Dictionary into actual atomic dictionary. @Kent 
+	- [X] Turn data Dictionary into actual atomic dictionary. @Kent 
 		- [X] CrashDataFile
 		- [X] PersonDataFile
 		- [X] Tables1
@@ -57,7 +57,7 @@
 		- [X] Tables6
 		- [X] Tables7
 		- [X] Tables8
-		- [ ] Tables9
+		- [X] Tables9
 	- [ ] Manual Review & Edits
 		- [ ] CrashDataFile
 		- [ ] PersonDataFile
