@@ -40,10 +40,11 @@
 	- [X] QGis Layer @Kent -> Have as backup
 
 - [ ] Data Cleaning
-	- [ ] Remove incomplete Records
+	- [ ] Remove incomplete Records 
+	- [ ] Get Full addresses for each Lat/Long @ Nicole
 
 - [ ] Data Dictionary Encoding
-	- [ ] Turn data Dictionary into actual atomic dictionary. 
+	- [ ] Turn data Dictionary into actual atomic dictionary. @Kent 
 
 - [ ] Write Abstract **(DUE 23 1200 Mar 23)**
 
