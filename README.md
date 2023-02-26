@@ -52,7 +52,7 @@
 		- [X] Tables3
 		- [X] Tables4
 		- [X] Tables5
-		- [ ] Tables6
+		- [X] Tables6
 		- [ ] Tables7
 		- [ ] Tables8
 		- [ ] Tables9
