@@ -56,7 +56,7 @@
 		- [X] Tables5
 		- [X] Tables6
 		- [X] Tables7
-		- [ ] Tables8
+		- [X] Tables8
 		- [ ] Tables9
 	- [ ] Manual Review & Edits
 		- [ ] CrashDataFile
