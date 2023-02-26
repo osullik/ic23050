@@ -48,7 +48,7 @@
 		- [X] CrashDataFile
 		- [X] PersonDataFile
 		- [X] Tables1
-		- [ ] Tables2
+		- [X] Tables2
 		- [ ] Tables3
 		- [ ] Tables4
 		- [ ] Tables5
