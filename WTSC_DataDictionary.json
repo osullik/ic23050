@@ -54,7 +54,20 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Crash Month",
-            "DATA": {}
+            "DATA": {
+                "1":"January",
+                "2":"February",
+                "3":"March",
+                "4":"April",
+                "5":"May",
+                "6":"June",
+                "7":"July",
+                "8":"August",
+                "9":"September",
+                "10":"October",
+                "11":"November",
+                "12":"December"
+            }
         },
         "holiday": {
             "TYPE": 1.0,
@@ -1091,6 +1104,13 @@
             "LABEL": "Investigating Agency",
             "DATA": {}
         },
+        "repjur": {
+            "TYPE": 1.0,
+            "LENGTH": 8.0,
+            "FORMAT": NaN,
+            "LABEL": "Reporting Jurisdiction",
+            "DATA": {}
+        },
         "crash_dt": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
@@ -1117,7 +1137,20 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Crash Month",
-            "DATA": {}
+            "DATA": {
+                "1":"January",
+                "2":"February",
+                "3":"March",
+                "4":"April",
+                "5":"May",
+                "6":"June",
+                "7":"July",
+                "8":"August",
+                "9":"September",
+                "10":"October",
+                "11":"November",
+                "12":"December"
+            }
         },
         "county": {
             "TYPE": 1.0,
@@ -1137,7 +1170,7 @@
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "City ",
+            "LABEL": "City",
             "DATA": {}
         },
         "weather": {
@@ -1145,35 +1178,94 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Weather Condition",
-            "DATA": {}
+            "DATA": {
+                "00": "No Additional Atmospheric Conditions",
+                "01": "Clear",
+                "02": "Rain",
+                "03": "Sleet or Hail",
+                "04": "Snow",
+                "05": "Fog, Smog, Smoke",
+                "06": "Severe Crosswinds",
+                "07": "Blowing Sand, Soil, Dirt",
+                "08": "Other",
+                "10": "Cloudy",
+                "11": "Blowing Snow",
+                "12": "Freezing Rain or Drizzle",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "weather2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "Weather Condition - additional",
-            "DATA": {}
+            "LABEL": "Weather Condition 2",
+            "DATA": {
+                "00": "No Additional Atmospheric Conditions",
+                "01": "Clear",
+                "02": "Rain",
+                "03": "Sleet or Hail",
+                "04": "Snow",
+                "05": "Fog, Smog, Smoke",
+                "06": "Severe Crosswinds",
+                "07": "Blowing Sand, Soil, Dirt",
+                "08": "Other",
+                "10": "Cloudy",
+                "11": "Blowing Snow",
+                "12": "Freezing Rain or Drizzle",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "lightcond": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Light Condition",
-            "DATA": {}
+            "DATA": {
+                "1": "Daylight",
+                "2": "Dark - Not Lighted",
+                "3": "Dark - Lighted",
+                "6": "Dark - Lighting Unknown",
+                "4": "Dawn",
+                "5": "Dusk",
+                "7": "Other",
+                "8": "Not Reported",
+                "9": "Unknown"
+            }
         },
         "surfcond": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Road Surface Condition",
-            "DATA": {}
+            "DATA": {
+                "1": "Dry",
+                "2": "Wet",
+                "3": "Snow or Slush",
+                "4": "Ice or Frost",
+                "5": "Sand, Dirt, Mud, Gravel",
+                "6": "Water",
+                "7": "Oil",
+                "8": "Other",
+                "9": "Unknown"
+            }
         },
         "surftype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Road Surface Type",
-            "DATA": {}
+            "DATA": {
+                "1": "Concrete",
+                "2": "Blacktop - bituminous or asphalt",
+                "3": "Brick or Block",
+                "4": "Slag, Gravel, Stone",
+                "5": "Dirt",
+                "7": "Oil",
+                "8": "Other",
+                "9": "Unknown"
+            }
         },
         "numfatal": {
             "TYPE": 1.0,
@@ -1235,7 +1327,7 @@
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "VEHICLE Level hit and run indicator",
+            "LABEL": "CRASH Level Hit and Run Indicator",
             "DATA": {
                 "0": "No",
                 "1": "Yes"
@@ -1245,13 +1337,28 @@
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "Manner of Collision",
-            "DATA": {}
+            "LABEL": "Manner of Collision of the First Harmful Event",
+            "DATA": {
+                "0": "The fhevent was Not a collision with a motor vehicle in transport",
+                "1": "Front-to-Rear",
+                "2": "Front-to-Front",
+                "3": "Front-to-Side, Same Direction",
+                "4": "Front-to-Side, Opposite Direction",
+                "5": "Front-to-Side, Right Angle",
+                "6": "Angle",
+                "7": "Sideswipe, Same Direction",
+                "8": "Sideswipe, Opposite Direction",
+                "9": "Rear-to-Side",
+                "10": "Rear-to-Rear",
+                "11": "Other",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "milepnt": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": 6.1,
             "LABEL": "Roadway Milepoint",
             "DATA": {}
         },
@@ -1260,70 +1367,190 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Relation to Junction",
-            "DATA": {}
+            "DATA": {
+                "01": "Non-Junction",
+                "02": "Intersection",
+                "03": "Intersection Related",
+                "04": "Driveway Access",
+                "05": "Entrance/Exit Ramp Related",
+                "06": "Railway Grade Crossing",
+                "07": "Crossover Related",
+                "08": "Driveway Access Related",
+                "16": "Shared-Use Path or Trail",
+                "17": "Acceleration/Deceleration Lane",
+                "18": "Through Roadway",
+                "19": "Other Location Within Interchange Area",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "reljuncinter": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Within Interchange?",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes",
+                "8": "Not reported",
+                "9": "Unknown"
+            }
         },
         "funcsystem": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "Functional System",
-            "DATA": {}
+            "LABEL": "Functional System\n(2015 and later)",
+            "DATA": {
+                "1": "Interstate",
+                "2": "Principal Arterial-Other Freeway / \n    Expressway",
+                "3": "Principal Arterial-Other",
+                "4": "Minor Arterial",
+                "5": "Major Collector",
+                "6": "Minor Collector",
+                "7": "Local",
+                "96": "Trafficway not in State Inventory",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "landuse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Land Use",
-            "DATA": {}
+            "DATA": {
+                "1": "Rural",
+                "2": "Urban",
+                "6": "Trafficway not in State Inventory",
+                "8": "Not Reported",
+                "9": "Unknown"
+            }
         },
         "ownership": {
-            "TYPE": 1.0,
-            "LENGTH": 8.0,
+            "TYPE": 2.0,
+            "LENGTH": 1.0,
             "FORMAT": NaN,
             "LABEL": "Roadway Ownership",
-            "DATA": {}
+            "DATA": {
+                "1": "State Highway Agency",
+                "2": "County Highway Agency",
+                "3": "Town or Township Highway Agency",
+                "4": "City or Municipal Highway Agency",
+                "11": "State Park, Forest or Reservation Agency",
+                "12": "Local Park, Forest or Reservation Agency",
+                "21": "Other State Agency",
+                "25": "Other Local Agency",
+                "26": "Private",
+                "27": "Railroad",
+                "31": "State Toll Road",
+                "32": "Local Toll Authority",
+                "40": "Other Public Instrumentality",
+                "50": "Indian Tribe Nation",
+                "60": "Other Federal Agency",
+                "62": "Bureau of Indian Affairs",
+                "63": "Bureau of Fish and Wildlife",
+                "64": "U.S. Forest Service",
+                "66": "National Park Service",
+                "67": "Tennessee Valley Authority",
+                "68": "Bureau of Land Management",
+                "69": "Bureau of Reclamation",
+                "70": "Corps of Engineers",
+                "72": "Air Force",
+                "74": "Navy/Marines",
+                "80": "Army",
+                "96": "Trafficway Not in State Inventory",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "intersectiontype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "Intersection Type",
-            "DATA": {}
+            "LABEL": "Type of Intersection",
+            "DATA": {
+                "1": "No Intersection",
+                "2": "4-Way Intersection",
+                "3": "T-Intersection                                                                                                          T-Intersection",
+                "4": "Y-Intersection",
+                "5": "Traffic Circle",
+                "6": "Roundabout",
+                "7": "Five-point or more",
+                "10": "L-Intersection",
+                "11": "Other Intersection Type",
+                "88": "/Not Reported",
+                "89": "/Unknown",
+                "98": "/Not Reported",
+                "99": "/Unknown"
+            }
         },
         "funclass": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "Functional Road Class",
-            "DATA": {}
+            "LABEL": "Federal Functional Class  (Primary Roadway) ",
+            "DATA": {
+                "01": "RURAL-Principal Arterial",
+                "02": "RURAL-Principal Arterial",
+                "03": "RURAL-Minor Arterial",
+                "04": "RURAL-Major Collector",
+                "05": "RURAL-Minor Collector",
+                "06": "RURAL-Local Road or Street",
+                "09": "RURAL-Unknown Rural",
+                "11": "URBAN-Principal Arterial",
+                "12": "URBAN-Principal Arterial-Other",
+                "13": "URBAN-Other Principal Arterial",
+                "14": "URBAN-Minor Arterial",
+                "15": "URBAN-Collector",
+                "16": "URBAN-Local Road or Street",
+                "19": "URBAN-Unknown",
+                "99": "Unknown"
+            }
         },
         "route": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Administrative Road Class",
-            "DATA": {}
+            "DATA": {
+                "1": "Interstate",
+                "2": "US highway",
+                "3": "State route",
+                "4": "County road",
+                "5": "Township",
+                "6": "City street",
+                "7": "Frontage road",
+                "8": "Other road",
+                "9": "Unknown"
+            }
         },
         "schlbus": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "School Bus Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes",
+                "8": "Not Reported"
+            }
         },
         "spejur": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Special Jurisdiction",
-            "DATA": {}
+            "DATA": {
+                "0": "No Special Jurisdiction",
+                "1": "US National Park Service",
+                "2": "Military",
+                "3": "Indian Reservation",
+                "4": "College or University Campus",
+                "5": "Other Federal Property",
+                "8": "Other",
+                "9": "Unknown"
+            }
         },
         "contdev": {
             "TYPE": 1.0,
@@ -1337,20 +1564,27 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Traffic Device Function",
-            "DATA": {}
+            "DATA": {
+                "0": "No Device",
+                "1": "Device Not Functioning",
+                "2": "Device Functioning Improperly",
+                "3": "Device Functioning Properly",
+                "4": "Device Not Functioning or Device Functioning Improperly, specifics unknown",
+                "9": "Unknown"
+            }
         },
         "trafid1": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
             "FORMAT": NaN,
-            "LABEL": "Primary Roadway",
+            "LABEL": "Primary Roadway ",
             "DATA": {}
         },
         "trafid2": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
             "FORMAT": NaN,
-            "LABEL": "Secondary Roadway",
+            "LABEL": "Secondary Roadway ",
             "DATA": {}
         },
         "x": {
@@ -1367,18 +1601,24 @@
             "LABEL": "Latitude",
             "DATA": {}
         },
-        "crf1-crf3": {
-            "TYPE": NaN,
-            "LENGTH": NaN,
-            "FORMAT": NaN,
-            "LABEL": NaN,
-            "DATA": {}
-        },
         "wk_zone": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Work Zone Involvement",
+            "DATA": {
+                "0": "None",
+                "1": "Construction",
+                "2": "Maintenance",
+                "3": "Utility",
+                "4": "Work Zone, unknown type"
+            }
+        },
+        "crf1-crf3": {
+            "TYPE": 1.0,
+            "LENGTH": 8.0,
+            "FORMAT": NaN,
+            "LABEL": "Crash Related Factors",
             "DATA": {}
         },
         "vnumber": {
@@ -1395,8 +1635,8 @@
             "LABEL": "Crash Type",
             "DATA": {
                 "00": "No Impact",
-                "0193": "-See Tables",
-                "698": "Other Crash Type",
+                "01-93": "See Tables6",
+                "98": "Other Crash Type",
                 "99": "Unknown"
             }
         },
@@ -1475,12 +1715,11 @@
             "FORMAT": NaN,
             "LABEL": "Hazardous Materials (HM) Cargo",
             "DATA": {
-                "20060": "Through \n No",
+                "0": "Not Applicable",
                 "1": "No placard but HM present",
                 "2": "Yes, placard and HM present",
                 "3": "Yes, Unknown if Placarded",
-                "9": "Unknown\nFrom",
-                "20070": "forward\n Not applicable",
+                "9": "Unknown",
                 "8": "Not reported"
             }
         },
@@ -1539,13 +1778,16 @@
             "FORMAT": NaN,
             "LABEL": "Total Number of Traffic Lanes",
             "DATA": {
-                "200915": "Through  \n -Total number of traffic lanes",
-                "6": "Six or more Lanes",
+                "0": "Non-trafficway of Driveway Access",
+                "1": "One Lane",
+                "2": "Two Lanes",
+                "3": "Three Lanes",
+                "4": "Four Lanes",
+                "5": "Five Lanes",
+                "6": "Six Lanes",
                 "7": "Seven or more lanes",
-                "9": "Unknown",
-                "20100": "Forward \n Non-trafficway or Driveway Access",
-                "16": "-Total number of traffic lanes",
-                "8": "Not Reported"
+                "8": "Not Reported",
+                "9": "Unknown"
             }
         },
         "trafflow": {
@@ -1554,15 +1796,14 @@
             "FORMAT": NaN,
             "LABEL": "Trafficway Description",
             "DATA": {
-                "20091": "Through  \n Not physically divided",
+                "0": "Non-trafficway or driveway access",
+                "1": "Two-way, Not divided",
                 "2": "Two-way, Divided, Unprotected Median",
                 "3": "Two-way, Divided, Positive Median Barrier",
                 "4": "One-way Trafficway",
                 "5": "Two-way, Not divided with a cont. Left-turn lane",
                 "6": "Entrance/Exit Ramp",
                 "9": "Unknown",
-                "20100": "Forward \n Non-trafficway or driveway access",
-                "1": "Two-way, Not divided",
                 "8": "Not Reported"
             }
         },
@@ -1580,9 +1821,9 @@
             "LABEL": "Number of Occupants in Vehicle",
             "DATA": {
                 "00": "None",
-                "0195": "-Actual Value",
-                "96": "",
-                "9699": "or greater \nUnknown"
+                "01-95": "Actual Value",
+                "96": "96 Or Greater",
+                "99": "Unknown"
             }
         },
         "regowner": {
@@ -1637,8 +1878,8 @@
                 "20": "Motor vehicle used for electric ride-hailing",
                 "21": "Mail Carrier",
                 "22": "Public Utility",
-                "23": "Rental Truck over",
-                "1000024": ",lbs\nTruck Operating with Crash Attenuator Equipment",
+                "23": "Rental Truck over 10,000 lbs",
+                "24": "Truck Operating with Crash Attenuator Equipment",
                 "98": "Not Reported",
                 "99": "Unknown"
             }
@@ -1656,12 +1897,17 @@
             "FORMAT": NaN,
             "LABEL": "Vehicle Model",
             "DATA": {
-                "001399400499598": "- Passenger Car  \n- Light Truck  \nLow Speed Vehicle /\n   Neighborhood Electric Vehicle",
-                "599": "Unknown Low Speed Vehicle /\n   Neighborhood Electric Vehicle",
-                "700739": "-Motored Cycles",
+                "001-399": "Passenger Car",
+                "400-499": "Light Truck",
+                "598": "Low Speed Vehicle (LSV) / Neighborhood Electric Vehicle (NEV)",
+                "599": "Unknown Low Speed Vehicle / Neighborhood Electric Vehicle",
+                "700-739": "Motored Cycles",
                 "850": "Motor Home",
                 "870": "Medium/Heavy",
-                "880897": "-Trucks",
+                "880-897":"Trucks (all trucks>10000 lbs.,GVWR, except where Body Type=30 or 31", 
+                "898":"Other/Unknown, truck>10000 lbs.,GVWR",
+                "980-996": "All buses except van-based ones",
+                "988":"Other bus over 10000 lbs. (GVWR)",
                 "989": "Unknown Bus"
             }
         },
@@ -1671,7 +1917,7 @@
             "FORMAT": NaN,
             "LABEL": "Vehicle Year",
             "DATA": {
-                "9998": "The manufacturer's model-year for this vehicle, except: Not Reported",
+                "9998": "Not Reported",
                 "9999": "Unknown"
             }
         },
@@ -1716,35 +1962,110 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Sequence of Events 2",
-            "DATA": {}
+            "DATA": {
+                "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
+                "61": "Equipment failure",
+                "62": "Separation of units",
+                "63": "Run off road RIGHT",
+                "64": "Run off road LEFT",
+                "65": "Cross median",
+                "66": "Runaway vehicle",
+                "67": "Vehicle airborne",
+                "68": "Cross centerline",
+                "69": "Re-enter roadway",
+                "70": "Non-harmful, Swaying Trailer/Jackknife",
+                "71": "End departure",
+                "74": "Road Vehicle on rails",
+                "79": "Run off road Unknown Direction"
+            }
         },
         "seqevent3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Sequence of Events 3",
-            "DATA": {}
+            "DATA": {
+                "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
+                "61": "Equipment failure",
+                "62": "Separation of units",
+                "63": "Run off road RIGHT",
+                "64": "Run off road LEFT",
+                "65": "Cross median",
+                "66": "Runaway vehicle",
+                "67": "Vehicle airborne",
+                "68": "Cross centerline",
+                "69": "Re-enter roadway",
+                "70": "Non-harmful, Swaying Trailer/Jackknife",
+                "71": "End departure",
+                "74": "Road Vehicle on rails",
+                "79": "Run off road Unknown Direction"
+            }
         },
         "seqevent4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Sequence of Events 4",
-            "DATA": {}
+            "DATA": {
+                "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
+                "61": "Equipment failure",
+                "62": "Separation of units",
+                "63": "Run off road RIGHT",
+                "64": "Run off road LEFT",
+                "65": "Cross median",
+                "66": "Runaway vehicle",
+                "67": "Vehicle airborne",
+                "68": "Cross centerline",
+                "69": "Re-enter roadway",
+                "70": "Non-harmful, Swaying Trailer/Jackknife",
+                "71": "End departure",
+                "74": "Road Vehicle on rails",
+                "79": "Run off road Unknown Direction"
+            }
         },
         "seqevent5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Sequence of Events 5",
-            "DATA": {}
+            "DATA": {
+                "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
+                "61": "Equipment failure",
+                "62": "Separation of units",
+                "63": "Run off road RIGHT",
+                "64": "Run off road LEFT",
+                "65": "Cross median",
+                "66": "Runaway vehicle",
+                "67": "Vehicle airborne",
+                "68": "Cross centerline",
+                "69": "Re-enter roadway",
+                "70": "Non-harmful, Swaying Trailer/Jackknife",
+                "71": "End departure",
+                "74": "Road Vehicle on rails",
+                "79": "Run off road Unknown Direction"
+            }
         },
         "seqevent6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Sequence of Events 6",
-            "DATA": {}
+            "DATA": {
+                "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
+                "61": "Equipment failure",
+                "62": "Separation of units",
+                "63": "Run off road RIGHT",
+                "64": "Run off road LEFT",
+                "65": "Cross median",
+                "66": "Runaway vehicle",
+                "67": "Vehicle airborne",
+                "68": "Cross centerline",
+                "69": "Re-enter roadway",
+                "70": "Non-harmful, Swaying Trailer/Jackknife",
+                "71": "End departure",
+                "74": "Road Vehicle on rails",
+                "79": "Run off road Unknown Direction"
+            }
         },
         "pnumber": {
             "TYPE": 1.0,
@@ -1783,12 +2104,8 @@
             "FORMAT": NaN,
             "LABEL": "Age",
             "DATA": {
-                "200800": "If year is  or earlier:\n  Less than One Year",
-                "0196": "-Actual Age",
-                "97": "",
-                "9799": "or older\n  Unknown\nIf year is",
-                "2010000": "or later:\n  Less than One Year",
-                "001120": "-Actual Age*",
+                "000": "Less than One Year",
+                "001-120": "Actual Age",
                 "998": "Not Reported",
                 "999": "Unknown"
             }
@@ -1846,8 +2163,8 @@
                 "78": "Asian/Pacific Islander, No specific race",
                 "97": "Multiple Races Unspecified",
                 "98": "Other Race",
-                "99": "Unknown\nMultiple Race Codes - Used to code multi-race - All records with more than one race will have race codes in",
-                "200201": "s:\nWhite",
+                "99": "Unknown",
+                "201": "White",
                 "202": "Black",
                 "203": "North American Indian or Alaska Native",
                 "204": "Chinese",
@@ -1870,28 +2187,172 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Race",
-            "DATA": {}
+            "DATA": {
+                "00": "Not a Fatality",
+                "01": "White",
+                "02": "Black",
+                "03": "North American Indian or Alaska Native",
+                "04": "Chinese",
+                "05": "Japanese",
+                "06": "Native Hawaiian",
+                "07": "Filipino",
+                "18": "Asian Indian",
+                "19": "Other Indian",
+                "28": "Korean",
+                "38": "Samoan",
+                "48": "Vietnamese",
+                "58": "Guamanian or Chamorro",
+                "68": "Other Asian or Pacific Islander",
+                "78": "Asian/Pacific Islander, No specific race",
+                "97": "Multiple Races Unspecified",
+                "98": "Other Race",
+                "99": "Unknown",
+                "201": "White",
+                "202": "Black",
+                "203": "North American Indian or Alaska Native",
+                "204": "Chinese",
+                "205": "Japanese",
+                "206": "Native Hawaiian",
+                "207": "Filipino",
+                "218": "Asian Indian",
+                "219": "Other Indian",
+                "228": "Korean",
+                "238": "Samoan",
+                "248": "Vietnamese",
+                "258": "Guamanian or Chamorro",
+                "268": "Other Asian or Pacific Islander",
+                "278": "Asian/Pacific Islander, No specific race",
+                "298": "Multiple Race - Other Races"
+            }
         },
         "race3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Race",
-            "DATA": {}
+            "DATA": {
+                "00": "Not a Fatality",
+                "01": "White",
+                "02": "Black",
+                "03": "North American Indian or Alaska Native",
+                "04": "Chinese",
+                "05": "Japanese",
+                "06": "Native Hawaiian",
+                "07": "Filipino",
+                "18": "Asian Indian",
+                "19": "Other Indian",
+                "28": "Korean",
+                "38": "Samoan",
+                "48": "Vietnamese",
+                "58": "Guamanian or Chamorro",
+                "68": "Other Asian or Pacific Islander",
+                "78": "Asian/Pacific Islander, No specific race",
+                "97": "Multiple Races Unspecified",
+                "98": "Other Race",
+                "99": "Unknown",
+                "201": "White",
+                "202": "Black",
+                "203": "North American Indian or Alaska Native",
+                "204": "Chinese",
+                "205": "Japanese",
+                "206": "Native Hawaiian",
+                "207": "Filipino",
+                "218": "Asian Indian",
+                "219": "Other Indian",
+                "228": "Korean",
+                "238": "Samoan",
+                "248": "Vietnamese",
+                "258": "Guamanian or Chamorro",
+                "268": "Other Asian or Pacific Islander",
+                "278": "Asian/Pacific Islander, No specific race",
+                "298": "Multiple Race - Other Races"
+            }
         },
         "race4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Race",
-            "DATA": {}
+            "DATA": {
+                "00": "Not a Fatality",
+                "01": "White",
+                "02": "Black",
+                "03": "North American Indian or Alaska Native",
+                "04": "Chinese",
+                "05": "Japanese",
+                "06": "Native Hawaiian",
+                "07": "Filipino",
+                "18": "Asian Indian",
+                "19": "Other Indian",
+                "28": "Korean",
+                "38": "Samoan",
+                "48": "Vietnamese",
+                "58": "Guamanian or Chamorro",
+                "68": "Other Asian or Pacific Islander",
+                "78": "Asian/Pacific Islander, No specific race",
+                "97": "Multiple Races Unspecified",
+                "98": "Other Race",
+                "99": "Unknown",
+                "201": "White",
+                "202": "Black",
+                "203": "North American Indian or Alaska Native",
+                "204": "Chinese",
+                "205": "Japanese",
+                "206": "Native Hawaiian",
+                "207": "Filipino",
+                "218": "Asian Indian",
+                "219": "Other Indian",
+                "228": "Korean",
+                "238": "Samoan",
+                "248": "Vietnamese",
+                "258": "Guamanian or Chamorro",
+                "268": "Other Asian or Pacific Islander",
+                "278": "Asian/Pacific Islander, No specific race",
+                "298": "Multiple Race - Other Races"
+            }
         },
         "race5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Race",
-            "DATA": {}
+            "DATA": {
+                "00": "Not a Fatality",
+                "01": "White",
+                "02": "Black",
+                "03": "North American Indian or Alaska Native",
+                "04": "Chinese",
+                "05": "Japanese",
+                "06": "Native Hawaiian",
+                "07": "Filipino",
+                "18": "Asian Indian",
+                "19": "Other Indian",
+                "28": "Korean",
+                "38": "Samoan",
+                "48": "Vietnamese",
+                "58": "Guamanian or Chamorro",
+                "68": "Other Asian or Pacific Islander",
+                "78": "Asian/Pacific Islander, No specific race",
+                "97": "Multiple Races Unspecified",
+                "98": "Other Race",
+                "99": "Unknown",
+                "201": "White",
+                "202": "Black",
+                "203": "North American Indian or Alaska Native",
+                "204": "Chinese",
+                "205": "Japanese",
+                "206": "Native Hawaiian",
+                "207": "Filipino",
+                "218": "Asian Indian",
+                "219": "Other Indian",
+                "228": "Korean",
+                "238": "Samoan",
+                "248": "Vietnamese",
+                "258": "Guamanian or Chamorro",
+                "268": "Other Asian or Pacific Islander",
+                "278": "Asian/Pacific Islander, No specific race",
+                "298": "Multiple Race - Other Races"
+            }
         },
         "injury": {
             "TYPE": 1.0,
@@ -1916,7 +2377,7 @@
             "FORMAT": NaN,
             "LABEL": "Died at scene or En route",
             "DATA": {
-                "20010": "Since :\nNot Applicable",
+                "0": "Not Applicable",
                 "7": "Died at Scene",
                 "8": "Died En Route",
                 "9": "Unknown"
@@ -2145,7 +2606,8 @@
                 "0": "Not Distracted",
                 "1": "Looked But Did Not See",
                 "16": "No Driver Present / Unknown if Driver Present",
-                "963": "Not Reported\nSPECIFIC DISTRACTIONS:\nBy Other Occupant",
+                "96": "Not Reported",
+                "3": "My Other Occupant",
                 "4": "By a Moving Object in Vehicle",
                 "5": "While Talking or Listening to Cellular Phone",
                 "6": "While Manipulating Cellular Phone",
@@ -2171,35 +2633,155 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Distraction 2",
-            "DATA": {}
+            "DATA": {
+                "0": "Not Distracted",
+                "1": "Looked But Did Not See",
+                "16": "No Driver Present / Unknown if Driver Present",
+                "96": "Not Reported",
+                "3": "My Other Occupant",
+                "4": "By a Moving Object in Vehicle",
+                "5": "While Talking or Listening to Cellular Phone",
+                "6": "While Manipulating Cellular Phone",
+                "7": "Adjusting Audio or Climate Controls",
+                "9": "While Using Other Component/Controls Integral to Vehicle",
+                "10": "While Using or Reaching For Device/Object Brought Into Vehicle",
+                "12": "Distracted by Outside Person, Object or Event",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "15": "Other Cellular Phone Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "99": "Unknown if Distract"
+            }
         },
         "distract3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Distraction 3",
-            "DATA": {}
+            "DATA": {
+                "0": "Not Distracted",
+                "1": "Looked But Did Not See",
+                "16": "No Driver Present / Unknown if Driver Present",
+                "96": "Not Reported",
+                "3": "My Other Occupant",
+                "4": "By a Moving Object in Vehicle",
+                "5": "While Talking or Listening to Cellular Phone",
+                "6": "While Manipulating Cellular Phone",
+                "7": "Adjusting Audio or Climate Controls",
+                "9": "While Using Other Component/Controls Integral to Vehicle",
+                "10": "While Using or Reaching For Device/Object Brought Into Vehicle",
+                "12": "Distracted by Outside Person, Object or Event",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "15": "Other Cellular Phone Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "99": "Unknown if Distract"
+            }
         },
         "distract4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Distraction 4",
-            "DATA": {}
+            "DATA": {
+                "0": "Not Distracted",
+                "1": "Looked But Did Not See",
+                "16": "No Driver Present / Unknown if Driver Present",
+                "96": "Not Reported",
+                "3": "My Other Occupant",
+                "4": "By a Moving Object in Vehicle",
+                "5": "While Talking or Listening to Cellular Phone",
+                "6": "While Manipulating Cellular Phone",
+                "7": "Adjusting Audio or Climate Controls",
+                "9": "While Using Other Component/Controls Integral to Vehicle",
+                "10": "While Using or Reaching For Device/Object Brought Into Vehicle",
+                "12": "Distracted by Outside Person, Object or Event",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "15": "Other Cellular Phone Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "99": "Unknown if Distract"
+            }
         },
         "distract5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Distraction 5",
-            "DATA": {}
+            "DATA": {
+                "0": "Not Distracted",
+                "1": "Looked But Did Not See",
+                "16": "No Driver Present / Unknown if Driver Present",
+                "96": "Not Reported",
+                "3": "My Other Occupant",
+                "4": "By a Moving Object in Vehicle",
+                "5": "While Talking or Listening to Cellular Phone",
+                "6": "While Manipulating Cellular Phone",
+                "7": "Adjusting Audio or Climate Controls",
+                "9": "While Using Other Component/Controls Integral to Vehicle",
+                "10": "While Using or Reaching For Device/Object Brought Into Vehicle",
+                "12": "Distracted by Outside Person, Object or Event",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "15": "Other Cellular Phone Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "99": "Unknown if Distract"
+            }
         },
         "distract6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Distraction 6",
-            "DATA": {}
+            "DATA": {
+                "0": "Not Distracted",
+                "1": "Looked But Did Not See",
+                "16": "No Driver Present / Unknown if Driver Present",
+                "96": "Not Reported",
+                "3": "My Other Occupant",
+                "4": "By a Moving Object in Vehicle",
+                "5": "While Talking or Listening to Cellular Phone",
+                "6": "While Manipulating Cellular Phone",
+                "7": "Adjusting Audio or Climate Controls",
+                "9": "While Using Other Component/Controls Integral to Vehicle",
+                "10": "While Using or Reaching For Device/Object Brought Into Vehicle",
+                "12": "Distracted by Outside Person, Object or Event",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "15": "Other Cellular Phone Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "99": "Unknown if Distract"
+            }
         },
         "dricond1": {
             "TYPE": 1.0,
@@ -2227,35 +2809,105 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Condition 2",
-            "DATA": {}
+            "DATA": {
+                "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
+                "2": "Asleep, fatigued",
+                "3": "Using cane, crutches, etc.",
+                "4": "Paraplegic, using wheelchair",
+                "5": "Impaired by prior injury",
+                "6": "Deaf",
+                "7": "Blind",
+                "8": "Emotional",
+                "9": "DUI-drugs, alcohol, medication",
+                "10": "Physical impairment - undefined",
+                "96": "Other physical impairment",
+                "98": "Not reported",
+                "99": "Unknown"
+            }
         },
         "dricond3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Condition 3",
-            "DATA": {}
+            "DATA": {
+                "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
+                "2": "Asleep, fatigued",
+                "3": "Using cane, crutches, etc.",
+                "4": "Paraplegic, using wheelchair",
+                "5": "Impaired by prior injury",
+                "6": "Deaf",
+                "7": "Blind",
+                "8": "Emotional",
+                "9": "DUI-drugs, alcohol, medication",
+                "10": "Physical impairment - undefined",
+                "96": "Other physical impairment",
+                "98": "Not reported",
+                "99": "Unknown"
+            }
         },
         "dricond4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Condition 4",
-            "DATA": {}
+            "DATA": {
+                "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
+                "2": "Asleep, fatigued",
+                "3": "Using cane, crutches, etc.",
+                "4": "Paraplegic, using wheelchair",
+                "5": "Impaired by prior injury",
+                "6": "Deaf",
+                "7": "Blind",
+                "8": "Emotional",
+                "9": "DUI-drugs, alcohol, medication",
+                "10": "Physical impairment - undefined",
+                "96": "Other physical impairment",
+                "98": "Not reported",
+                "99": "Unknown"
+            }
         },
         "dricond5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Condition 5",
-            "DATA": {}
+            "DATA": {
+                "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
+                "2": "Asleep, fatigued",
+                "3": "Using cane, crutches, etc.",
+                "4": "Paraplegic, using wheelchair",
+                "5": "Impaired by prior injury",
+                "6": "Deaf",
+                "7": "Blind",
+                "8": "Emotional",
+                "9": "DUI-drugs, alcohol, medication",
+                "10": "Physical impairment - undefined",
+                "96": "Other physical impairment",
+                "98": "Not reported",
+                "99": "Unknown"
+            }
         },
         "dricond6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Driver Condition 6",
-            "DATA": {}
+            "DATA": {
+                "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
+                "2": "Asleep, fatigued",
+                "3": "Using cane, crutches, etc.",
+                "4": "Paraplegic, using wheelchair",
+                "5": "Impaired by prior injury",
+                "6": "Deaf",
+                "7": "Blind",
+                "8": "Emotional",
+                "9": "DUI-drugs, alcohol, medication",
+                "10": "Physical impairment - undefined",
+                "96": "Other physical impairment",
+                "98": "Not reported",
+                "99": "Unknown"
+            }
         },
         "dzip": {
             "TYPE": 1.0,
@@ -2321,7 +2973,8 @@
             "FORMAT": NaN,
             "LABEL": "#Prior DUI Convictions",
             "DATA": {
-                "99": "Actual number of prior events recorded on this driver's record during the previous three  FIVE  years.\n \nunknown, typically because subject is Canadian, Mexican, or a hit-run driver so driving record is unavailable.\n\nNOTE: In"
+                "0-98":"Actual Number Recorded".
+                "99": "unknown"
             }
         },
         "prevoth": {
@@ -2343,35 +2996,50 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "#Prior Speeding Convictions",
-            "DATA": {}
+            "DATA": {
+                "0-98":"Actual Number Recorded".
+                "99": "unknown"
+            }
         },
         "prevsus": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "#Prior License Suspensions",
-            "DATA": {}
+            "DATA": {
+                "0-98":"Actual Number Recorded".
+                "99": "unknown"
+            }
         },
         "prevpersemin": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "#Prior License Suspensions - Minor per se related",
-            "DATA": {}
+            "DATA": {
+                "0-98":"Actual Number Recorded".
+                "99": "unknown"
+            }
         },
         "prevperse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "#Prior License Suspensions - Per se related",
-            "DATA": {}
+            "DATA": {
+                "0-98":"Actual Number Recorded".
+                "99": "unknown"
+            }
         },
         "prevsusoth": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "#Prior License Suspensions - Other",
-            "DATA": {}
+            "DATA": {
+                "0-98":"Actual Number Recorded".
+                "99": "unknown"
+            }
         },
         "driviol1": {
             "TYPE": 1.0,
@@ -2421,7 +3089,7 @@
             "FORMAT": NaN,
             "LABEL": "Speeding Related",
             "DATA": {
-                "20100": "Since  \n\nNo",
+                "0":"No",
                 "2": "Yes, Racing",
                 "3": "Yes, Exceeded Speed Limit",
                 "4": "Yes, Too Fast for Conditions",
@@ -2523,7 +3191,15 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Method of Alcohol Determination",
-            "DATA": {}
+            "DATA": {
+                "1": "Evidential Test (Breath, Blood, Urine)",
+                "2": "Preliminary Breath Test (PBT)",
+                "3": "Behavioral",
+                "4": "Passive Alcohol Sensor (PAS)",
+                "5": "Observed",
+                "8": "Other",
+                "9": "Not Reported"
+            }
         },
         "methdrug": {
             "TYPE": 1.0,
@@ -2542,7 +3218,7 @@
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
-            "LABEL": "NonMotorist Location\n(at time of crash)",
+            "LABEL": "NonMotorist Location (at time of crash)",
             "DATA": {}
         },
         "strikveh": {
@@ -2620,16 +3296,16 @@
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 1",
             "DATA": {
-                "18000": "Drug Test Results -  \nTest Not Given",
+                "000": "Test Not Given",
                 "001": "Tested, No Drugs Found/Negative",
-                "100295": "-Narcotic*",
-                "300395": "-Depressant*",
-                "400495": "-Stimulant*",
-                "500595": "-Hallucinogen*",
-                "600695": "-Cannabinoid*",
-                "700795": "-Phencyclidine *",
-                "800895": "-Anabolic Steroid*",
-                "900995": "-Inhalant*",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
                 "996": "Other Drug"
             }
         },
@@ -2638,77 +3314,209 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 2",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 3",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 4",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 5",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 6",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres7": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 7",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres8": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 8",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres9": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 9",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres10": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 10",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres11": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 11",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugres12": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Test Result 12",
-            "DATA": {}
+            "DATA": {
+                "000": "Test Not Given",
+                "001": "Tested, No Drugs Found/Negative",
+                "100-295": "Narcotic*",
+                "300-395": "Depressant*",
+                "400-495": "Stimulant*",
+                "500-595": "Hallucinogen*",
+                "600-695": "Cannabinoid*",
+                "700-795": "Phencyclidine *",
+                "800-895": "Anabolic Steroid*",
+                "900-995": "Inhalant*",
+                "996": "Other Drug"
+            }
         },
         "drugtst1": {
             "TYPE": 1.0,
@@ -2716,7 +3524,7 @@
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 1",
             "DATA": {
-                "11200": "Drug Test Type -\nTest Not Given",
+                "00": "Test Not Given",
                 "01": "Whole Blood",
                 "02": "Urine",
                 "11": "Blood Plasma/Serum",
@@ -2740,77 +3548,275 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 2",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 3",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 4",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 5",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 6",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst7": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 7",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst8": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 8",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst9": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 9",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst10": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 10",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst11": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 11",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "drugtst12": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "Drug Specimen 12",
-            "DATA": {}
+            "DATA": {
+                "00": "Test Not Given",
+                "01": "Whole Blood",
+                "02": "Urine",
+                "11": "Blood Plasma/Serum",
+                "12": "Blood Clot",
+                "13": "Oral Fluids",
+                "14": "Vitreous",
+                "15": "Liver",
+                "3": "Both: Blood and Urine Tests",
+                "7": "Unknown Test Type",
+                "8": "Other Test Type",
+                "6": "Not Reported",
+                "96": "Not Reported",
+                "9": "Unknown if Tested",
+                "97": "Unknown Specimen Type",
+                "98": "Other Speciment Type",
+                "99": "Reported as Unknown if Tested"
+            }
         },
         "alcsts": {
             "TYPE": 1.0,
@@ -2852,9 +3858,9 @@
             "FORMAT": ".###",
             "LABEL": "Alcohol Test Result (BAC)",
             "DATA": {
-                "000939": ".-.Actual Value  \n.",
-                "940": ".",
-                "940995": "or Greater  \nNot Reported",
+                ".000-.939": "Actual Value",
+                ".940": ".940 or Greater",
+                "995": "Not Reported",
                 "996": "Test Not Given",
                 "997": "AC Test Performed, Results Unknown",
                 "998": "Positive Reading with No Actual Value",
@@ -2867,10 +3873,10 @@
             "FORMAT": NaN,
             "LABEL": "NonMotorist Action 1",
             "DATA": {
-                "00": "Non-motorist actions during the crash \nNone Noted",
+                "00": "None Noted",
                 "01": "Dart-Out - visual obstruction Noted",
                 "02": "Failure to Yield Right-Of-Way",
-                "03": "Failure to Obey Traffic Signs, Signals or\n  Officer",
+                "03": "Failure to Obey Traffic Signs, Signals or Officer",
                 "04": "In Roadway Improperly",
                 "05": "Entering/Exiting Parked or Stopped Vehicle",
                 "06": "Inattentive",
@@ -2897,35 +3903,155 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Action 2",
-            "DATA": {}
+            "DATA": {
+                "00": "None Noted",
+                "01": "Dart-Out - visual obstruction Noted",
+                "02": "Failure to Yield Right-Of-Way",
+                "03": "Failure to Obey Traffic Signs, Signals or Officer",
+                "04": "In Roadway Improperly",
+                "05": "Entering/Exiting Parked or Stopped Vehicle",
+                "06": "Inattentive",
+                "07": "Improper Turn/Merge",
+                "08": "Improper Passing",
+                "09": "Wrong-Way Riding or Walking",
+                "10": "Riding on Wrong Side of Road",
+                "11": "Dash - Run, no visual obstruction Noted",
+                "12": "Improper Crossing of Roadway or Intersection",
+                "13": "Failing to Have Lights on When Required",
+                "14": "Operating Without Required Equipment",
+                "15": "Improper or Erratic Lane Changing",
+                "16": "Failed to stay in proper Lane/ Ran off road",
+                "17": "Making Improper Entry to or Exit from Trafficway",
+                "18": "Operating in Other Erratic, Reckless, Careless or Negligent Manner",
+                "19": "Not Visible",
+                "20": "Passing with Insufficient Distance or Inadequate Visibility or Failing to Yield to \nOvertaking Vehicle",
+                "21": "Other",
+                "99": "Unknown"
+            }
         },
         "nmact3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Action 3",
-            "DATA": {}
+            "DATA": {
+                "00": "None Noted",
+                "01": "Dart-Out - visual obstruction Noted",
+                "02": "Failure to Yield Right-Of-Way",
+                "03": "Failure to Obey Traffic Signs, Signals or Officer",
+                "04": "In Roadway Improperly",
+                "05": "Entering/Exiting Parked or Stopped Vehicle",
+                "06": "Inattentive",
+                "07": "Improper Turn/Merge",
+                "08": "Improper Passing",
+                "09": "Wrong-Way Riding or Walking",
+                "10": "Riding on Wrong Side of Road",
+                "11": "Dash - Run, no visual obstruction Noted",
+                "12": "Improper Crossing of Roadway or Intersection",
+                "13": "Failing to Have Lights on When Required",
+                "14": "Operating Without Required Equipment",
+                "15": "Improper or Erratic Lane Changing",
+                "16": "Failed to stay in proper Lane/ Ran off road",
+                "17": "Making Improper Entry to or Exit from Trafficway",
+                "18": "Operating in Other Erratic, Reckless, Careless or Negligent Manner",
+                "19": "Not Visible",
+                "20": "Passing with Insufficient Distance or Inadequate Visibility or Failing to Yield to \nOvertaking Vehicle",
+                "21": "Other",
+                "99": "Unknown"
+            }
         },
         "nmact4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Action 4",
-            "DATA": {}
+            "DATA": {
+                "00": "None Noted",
+                "01": "Dart-Out - visual obstruction Noted",
+                "02": "Failure to Yield Right-Of-Way",
+                "03": "Failure to Obey Traffic Signs, Signals or Officer",
+                "04": "In Roadway Improperly",
+                "05": "Entering/Exiting Parked or Stopped Vehicle",
+                "06": "Inattentive",
+                "07": "Improper Turn/Merge",
+                "08": "Improper Passing",
+                "09": "Wrong-Way Riding or Walking",
+                "10": "Riding on Wrong Side of Road",
+                "11": "Dash - Run, no visual obstruction Noted",
+                "12": "Improper Crossing of Roadway or Intersection",
+                "13": "Failing to Have Lights on When Required",
+                "14": "Operating Without Required Equipment",
+                "15": "Improper or Erratic Lane Changing",
+                "16": "Failed to stay in proper Lane/ Ran off road",
+                "17": "Making Improper Entry to or Exit from Trafficway",
+                "18": "Operating in Other Erratic, Reckless, Careless or Negligent Manner",
+                "19": "Not Visible",
+                "20": "Passing with Insufficient Distance or Inadequate Visibility or Failing to Yield to \nOvertaking Vehicle",
+                "21": "Other",
+                "99": "Unknown"
+            }
         },
         "nmact5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Action 5",
-            "DATA": {}
+            "DATA": {
+                "00": "None Noted",
+                "01": "Dart-Out - visual obstruction Noted",
+                "02": "Failure to Yield Right-Of-Way",
+                "03": "Failure to Obey Traffic Signs, Signals or Officer",
+                "04": "In Roadway Improperly",
+                "05": "Entering/Exiting Parked or Stopped Vehicle",
+                "06": "Inattentive",
+                "07": "Improper Turn/Merge",
+                "08": "Improper Passing",
+                "09": "Wrong-Way Riding or Walking",
+                "10": "Riding on Wrong Side of Road",
+                "11": "Dash - Run, no visual obstruction Noted",
+                "12": "Improper Crossing of Roadway or Intersection",
+                "13": "Failing to Have Lights on When Required",
+                "14": "Operating Without Required Equipment",
+                "15": "Improper or Erratic Lane Changing",
+                "16": "Failed to stay in proper Lane/ Ran off road",
+                "17": "Making Improper Entry to or Exit from Trafficway",
+                "18": "Operating in Other Erratic, Reckless, Careless or Negligent Manner",
+                "19": "Not Visible",
+                "20": "Passing with Insufficient Distance or Inadequate Visibility or Failing to Yield to \nOvertaking Vehicle",
+                "21": "Other",
+                "99": "Unknown"
+            }
         },
         "nmact6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Action 6",
-            "DATA": {}
+            "DATA": {
+                "00": "None Noted",
+                "01": "Dart-Out - visual obstruction Noted",
+                "02": "Failure to Yield Right-Of-Way",
+                "03": "Failure to Obey Traffic Signs, Signals or Officer",
+                "04": "In Roadway Improperly",
+                "05": "Entering/Exiting Parked or Stopped Vehicle",
+                "06": "Inattentive",
+                "07": "Improper Turn/Merge",
+                "08": "Improper Passing",
+                "09": "Wrong-Way Riding or Walking",
+                "10": "Riding on Wrong Side of Road",
+                "11": "Dash - Run, no visual obstruction Noted",
+                "12": "Improper Crossing of Roadway or Intersection",
+                "13": "Failing to Have Lights on When Required",
+                "14": "Operating Without Required Equipment",
+                "15": "Improper or Erratic Lane Changing",
+                "16": "Failed to stay in proper Lane/ Ran off road",
+                "17": "Making Improper Entry to or Exit from Trafficway",
+                "18": "Operating in Other Erratic, Reckless, Careless or Negligent Manner",
+                "19": "Not Visible",
+                "20": "Passing with Insufficient Distance or Inadequate Visibility or Failing to Yield to \nOvertaking Vehicle",
+                "21": "Other",
+                "99": "Unknown"
+            }
         },
         "nmprior1": {
             "TYPE": 1.0,
@@ -2933,15 +4059,21 @@
             "FORMAT": NaN,
             "LABEL": "NonMotorist Prior 1",
             "DATA": {
-                "01020304050607": "NonMotorist actions when crash occurred:\n Going To or From School  \n Waiting to Cross Roadway \n Crossing Roadway \n Jogging/Running \n Movement Along Roadway with Traffic \n    \n Movement Along Roadway Against Traffic\n   \nMovement On Sidewalk",
-                "08": "In Roadway \u2013 Other",
+                "01": "Going To or From School",
+                "02": "Waiting to Cross Roadway", 
+                "03": "Crossing Roadway",
+                "04": "Jogging/Running",
+                "05": "Movement Along Roadway with Traffic",
+                "06": "Movement Along Roadway Against Traffic",
+                "07": "Movement On Sidewalk",
+                "08": "In Roadway - Other",
                 "09": "Adjacent to Roadway",
                 "10": "Working in Trafficway",
                 "11": "Entering/Exiting parked or stopped vehicle",
                 "12": "Disabled Vehicle Related",
                 "14": "Other",
                 "15": "None",
-                "16": "Movement Along Roadway \u2013\n     direction unknown",
+                "16": "Movement Along Roadway - direction unknown",
                 "98": "Not Reported",
                 "99": "Unknown"
             }
@@ -2951,35 +4083,125 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Prior 2",
-            "DATA": {}
+            "DATA": {
+                "01": "Going To or From School",
+                "02": "Waiting to Cross Roadway", 
+                "03": "Crossing Roadway",
+                "04": "Jogging/Running",
+                "05": "Movement Along Roadway with Traffic",
+                "06": "Movement Along Roadway Against Traffic",
+                "07": "Movement On Sidewalk",
+                "08": "In Roadway - Other",
+                "09": "Adjacent to Roadway",
+                "10": "Working in Trafficway",
+                "11": "Entering/Exiting parked or stopped vehicle",
+                "12": "Disabled Vehicle Related",
+                "14": "Other",
+                "15": "None",
+                "16": "Movement Along Roadway - direction unknown",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "nmprior3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Prior 3",
-            "DATA": {}
+            "DATA": {
+                "01": "Going To or From School",
+                "02": "Waiting to Cross Roadway", 
+                "03": "Crossing Roadway",
+                "04": "Jogging/Running",
+                "05": "Movement Along Roadway with Traffic",
+                "06": "Movement Along Roadway Against Traffic",
+                "07": "Movement On Sidewalk",
+                "08": "In Roadway - Other",
+                "09": "Adjacent to Roadway",
+                "10": "Working in Trafficway",
+                "11": "Entering/Exiting parked or stopped vehicle",
+                "12": "Disabled Vehicle Related",
+                "14": "Other",
+                "15": "None",
+                "16": "Movement Along Roadway - direction unknown",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "nmprior4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Prior 4",
-            "DATA": {}
+            "DATA": {
+                "01": "Going To or From School",
+                "02": "Waiting to Cross Roadway", 
+                "03": "Crossing Roadway",
+                "04": "Jogging/Running",
+                "05": "Movement Along Roadway with Traffic",
+                "06": "Movement Along Roadway Against Traffic",
+                "07": "Movement On Sidewalk",
+                "08": "In Roadway - Other",
+                "09": "Adjacent to Roadway",
+                "10": "Working in Trafficway",
+                "11": "Entering/Exiting parked or stopped vehicle",
+                "12": "Disabled Vehicle Related",
+                "14": "Other",
+                "15": "None",
+                "16": "Movement Along Roadway - direction unknown",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "nmprior5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Prior 5",
-            "DATA": {}
+            "DATA": {
+                "01": "Going To or From School",
+                "02": "Waiting to Cross Roadway", 
+                "03": "Crossing Roadway",
+                "04": "Jogging/Running",
+                "05": "Movement Along Roadway with Traffic",
+                "06": "Movement Along Roadway Against Traffic",
+                "07": "Movement On Sidewalk",
+                "08": "In Roadway - Other",
+                "09": "Adjacent to Roadway",
+                "10": "Working in Trafficway",
+                "11": "Entering/Exiting parked or stopped vehicle",
+                "12": "Disabled Vehicle Related",
+                "14": "Other",
+                "15": "None",
+                "16": "Movement Along Roadway - direction unknown",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "nmprior6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Prior 6",
-            "DATA": {}
+            "DATA": {
+                "01": "Going To or From School",
+                "02": "Waiting to Cross Roadway", 
+                "03": "Crossing Roadway",
+                "04": "Jogging/Running",
+                "05": "Movement Along Roadway with Traffic",
+                "06": "Movement Along Roadway Against Traffic",
+                "07": "Movement On Sidewalk",
+                "08": "In Roadway - Other",
+                "09": "Adjacent to Roadway",
+                "10": "Working in Trafficway",
+                "11": "Entering/Exiting parked or stopped vehicle",
+                "12": "Disabled Vehicle Related",
+                "14": "Other",
+                "15": "None",
+                "16": "Movement Along Roadway - direction unknown",
+                "98": "Not Reported",
+                "99": "Unknown"
+            }
         },
         "nmcond1": {
             "TYPE": 1.0,
@@ -2987,7 +4209,7 @@
             "FORMAT": NaN,
             "LABEL": "NonMotorist Condition 1",
             "DATA": {
-                "01": "Non-motorist condition before the crash \n\nIll, Blackout",
+                "01": "Ill, Blackout",
                 "02": "Asleep or Fatigued",
                 "03": "Walking with a Cane or Crutches, etc.",
                 "04": "Paraplegic Or in a Wheelchair",
@@ -2996,7 +4218,7 @@
                 "07": "Blind",
                 "08": "Emotional",
                 "09": "Under the Influence of Alcohol, Drugs or Medication",
-                "10": "Physical Impairment \u2013 No Details",
+                "10": "Physical Impairment - No Details",
                 "96": "Other Physical Impairment",
                 "98": "Not Reported",
                 "99": "Unknown If Impaired"
@@ -3007,35 +4229,105 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Condition 2",
-            "DATA": {}
+            "DATA": {
+                "01": "Ill, Blackout",
+                "02": "Asleep or Fatigued",
+                "03": "Walking with a Cane or Crutches, etc.",
+                "04": "Paraplegic Or in a Wheelchair",
+                "05": "Impaired Due To Previous Injury",
+                "06": "Deaf",
+                "07": "Blind",
+                "08": "Emotional",
+                "09": "Under the Influence of Alcohol, Drugs or Medication",
+                "10": "Physical Impairment - No Details",
+                "96": "Other Physical Impairment",
+                "98": "Not Reported",
+                "99": "Unknown If Impaired"
+            }
         },
         "nmcond3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Condition 3",
-            "DATA": {}
+            "DATA": {
+                "01": "Ill, Blackout",
+                "02": "Asleep or Fatigued",
+                "03": "Walking with a Cane or Crutches, etc.",
+                "04": "Paraplegic Or in a Wheelchair",
+                "05": "Impaired Due To Previous Injury",
+                "06": "Deaf",
+                "07": "Blind",
+                "08": "Emotional",
+                "09": "Under the Influence of Alcohol, Drugs or Medication",
+                "10": "Physical Impairment - No Details",
+                "96": "Other Physical Impairment",
+                "98": "Not Reported",
+                "99": "Unknown If Impaired"
+            }
         },
         "nmcond4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Condition 4",
-            "DATA": {}
+            "DATA": {
+                "01": "Ill, Blackout",
+                "02": "Asleep or Fatigued",
+                "03": "Walking with a Cane or Crutches, etc.",
+                "04": "Paraplegic Or in a Wheelchair",
+                "05": "Impaired Due To Previous Injury",
+                "06": "Deaf",
+                "07": "Blind",
+                "08": "Emotional",
+                "09": "Under the Influence of Alcohol, Drugs or Medication",
+                "10": "Physical Impairment - No Details",
+                "96": "Other Physical Impairment",
+                "98": "Not Reported",
+                "99": "Unknown If Impaired"
+            }
         },
         "nmcond5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Condition 5",
-            "DATA": {}
+            "DATA": {
+                "01": "Ill, Blackout",
+                "02": "Asleep or Fatigued",
+                "03": "Walking with a Cane or Crutches, etc.",
+                "04": "Paraplegic Or in a Wheelchair",
+                "05": "Impaired Due To Previous Injury",
+                "06": "Deaf",
+                "07": "Blind",
+                "08": "Emotional",
+                "09": "Under the Influence of Alcohol, Drugs or Medication",
+                "10": "Physical Impairment - No Details",
+                "96": "Other Physical Impairment",
+                "98": "Not Reported",
+                "99": "Unknown If Impaired"
+            }
         },
         "nmcond6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Condition 6",
-            "DATA": {}
+            "DATA": {
+                "01": "Ill, Blackout",
+                "02": "Asleep or Fatigued",
+                "03": "Walking with a Cane or Crutches, etc.",
+                "04": "Paraplegic Or in a Wheelchair",
+                "05": "Impaired Due To Previous Injury",
+                "06": "Deaf",
+                "07": "Blind",
+                "08": "Emotional",
+                "09": "Under the Influence of Alcohol, Drugs or Medication",
+                "10": "Physical Impairment - No Details",
+                "96": "Other Physical Impairment",
+                "98": "Not Reported",
+                "99": "Unknown If Impaired"
+            }
         },
         "nmdistract1": {
             "TYPE": 1.0,
@@ -3069,35 +4361,135 @@
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Distraction 2",
-            "DATA": {}
+            "DATA": {
+                "00": "Not Distracted",
+                "02": "By Other Non-Motorist",
+                "03": "By a Driver or Occupant of a Motor Vehicle",
+                "12": "Distracted by Animal, Other Object, Event, or Activity",
+                "05": "While Talking or Listening to Mobile Phone",
+                "06": "While Manipulating Mobile Phone",
+                "15": "Other Mobile Phone Related",
+                "07": "Adjusting or Listening to Portable Audio Device",
+                "08": "Adjusting, Talking to, or Manipulating Other Portable Electronic Device",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "96": "Not Reported"
+            }
         },
         "nmdistract3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Distraction 3",
-            "DATA": {}
+            "DATA": {
+                "00": "Not Distracted",
+                "02": "By Other Non-Motorist",
+                "03": "By a Driver or Occupant of a Motor Vehicle",
+                "12": "Distracted by Animal, Other Object, Event, or Activity",
+                "05": "While Talking or Listening to Mobile Phone",
+                "06": "While Manipulating Mobile Phone",
+                "15": "Other Mobile Phone Related",
+                "07": "Adjusting or Listening to Portable Audio Device",
+                "08": "Adjusting, Talking to, or Manipulating Other Portable Electronic Device",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "96": "Not Reported"
+            }
         },
         "nmdistract4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Distraction 4",
-            "DATA": {}
+            "DATA": {
+                "00": "Not Distracted",
+                "02": "By Other Non-Motorist",
+                "03": "By a Driver or Occupant of a Motor Vehicle",
+                "12": "Distracted by Animal, Other Object, Event, or Activity",
+                "05": "While Talking or Listening to Mobile Phone",
+                "06": "While Manipulating Mobile Phone",
+                "15": "Other Mobile Phone Related",
+                "07": "Adjusting or Listening to Portable Audio Device",
+                "08": "Adjusting, Talking to, or Manipulating Other Portable Electronic Device",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "96": "Not Reported"
+            }
         },
         "nmdistract5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Distraction 5",
-            "DATA": {}
+            "DATA": {
+                "00": "Not Distracted",
+                "02": "By Other Non-Motorist",
+                "03": "By a Driver or Occupant of a Motor Vehicle",
+                "12": "Distracted by Animal, Other Object, Event, or Activity",
+                "05": "While Talking or Listening to Mobile Phone",
+                "06": "While Manipulating Mobile Phone",
+                "15": "Other Mobile Phone Related",
+                "07": "Adjusting or Listening to Portable Audio Device",
+                "08": "Adjusting, Talking to, or Manipulating Other Portable Electronic Device",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "96": "Not Reported"
+            }
         },
         "nmdistract6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
             "FORMAT": NaN,
             "LABEL": "NonMotorist Distraction 6",
-            "DATA": {}
+            "DATA": {
+                "00": "Not Distracted",
+                "02": "By Other Non-Motorist",
+                "03": "By a Driver or Occupant of a Motor Vehicle",
+                "12": "Distracted by Animal, Other Object, Event, or Activity",
+                "05": "While Talking or Listening to Mobile Phone",
+                "06": "While Manipulating Mobile Phone",
+                "15": "Other Mobile Phone Related",
+                "07": "Adjusting or Listening to Portable Audio Device",
+                "08": "Adjusting, Talking to, or Manipulating Other Portable Electronic Device",
+                "13": "Eating or Drinking",
+                "14": "Smoking Related",
+                "17": "Distraction/Inattention",
+                "18": "Distraction/Careless",
+                "19": "Careless/Inattentive",
+                "92": "Distraction , Details Unknown",
+                "93": "Inattention , Details Unknown",
+                "97": "Lost in Thought / Day Dreaming",
+                "98": "Other Distraction",
+                "96": "Not Reported"
+            }
         },
         "safety": {
             "TYPE": 1.0,
@@ -3240,229 +4632,335 @@
                 "9": "Unknown"
             }
         },
-        "NaN": {
-            "TYPE": NaN,
-            "LENGTH": NaN,
-            "FORMAT": NaN,
-            "LABEL": NaN,
-            "DATA": {}
-        },
         "train_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Train Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "wildlife_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Wildlife Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "rotr_fars": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
-            "LABEL": "Run Off the Road Involved \n(FARS data)",
-            "DATA": {}
+            "LABEL": "Run Off the Road Involved\n(FARS data)",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "intersect_fars": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
-            "LABEL": "Intersection Involved (FARS data)",
-            "DATA": {}
+            "LABEL": "Intersection Involved\n(FARS data)",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dd_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Drinking Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "aid_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Alcohol Impaired Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dpd_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Drug Positive Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "id_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Impaired Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "mj_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Marijuana Positive Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "impnm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Impaired Nonmotorist-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "ainm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
-            "LABEL": "Alcohol Impaired Nonmotoris-Involved",
-            "DATA": {}
+            "LABEL": "Alcohol Impaired Nonmotorist-Involved",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dpnm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Drug Positive Nonmotorist-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "speed_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Speeding Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "unlic_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Unlicensed Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "unendmc_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Unendorsed Motorcyclist-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "drowsy_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Drowsy Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "drdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Distracted Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "nmdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Distracted Nonmotorist-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "fty_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Involved Driver Failing to Yield Right-of-Way",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "unrestfat_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Unrestrained Occupant Fatality-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dr1617_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "16-17 Year Old Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dr1820_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "18-20 Year Old Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dr1620_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "16-20 Year Old Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dr2125_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "21-25 Year Old Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dr1625_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "16-25 Year Old Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
+        },
+        "dr65_inv": {
+            "TYPE": 1.0,
+            "LENGTH": 3.0,
+            "FORMAT": NaN,
+            "LABEL": "65+ Year Old Driver-Involved",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
+        },
+        "dr70_inv": {
+            "TYPE": NaN,
+            "LENGTH": NaN,
+            "FORMAT": NaN,
+            "LABEL": "70+ Year Old Driver-Involved",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "dr75_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "75+ Year Old Driver-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "mc_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Motorcycle-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "pv_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Passenger Vehicle-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "ht_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Heavy Truck-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "ped_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Pedestrian-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "bike_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Bicyclist-Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "unrest_fat": {
             "TYPE": 1.0,
@@ -3722,29 +5220,66 @@
             "TYPE": 2.0,
             "LENGTH": 15.0,
             "FORMAT": NaN,
-            "LABEL": "Road Class \n(derived from Route)",
-            "DATA": {}
+            "LABEL": "Road Class",
+            "DATA": {
+                "1": "Interstate",
+                "2": "US highway",
+                "3": "State route",
+                "4": "County road",
+                "5": "Township",
+                "6": "City street",
+                "7": "Frontage road",
+                "8": "Other",
+                "9": "Unknown"
+            }
         },
         "urbrur": {
             "TYPE": 2.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Urban-Rural Classification",
-            "DATA": {}
+            "DATA": {
+                "R": "Rural",
+                "U": "Urban",
+                "Unk": "Unknown"
+            }
         },
         "dayweek": {
             "TYPE": 2.0,
             "LENGTH": 12.0,
             "FORMAT": NaN,
             "LABEL": "Day of Week",
-            "DATA": {}
+            "DATA": {
+                "1": "Sunday",
+                "2": "Monday",
+                "3": "Tuesday",
+                "4": "Wednesday",
+                "5": "Thursday",
+                "6": "Friday",
+                "7": "Saturday"
+            }
         },
         "restuse": {
             "TYPE": 2.0,
             "LENGTH": 15.0,
             "FORMAT": NaN,
             "LABEL": "Vehicle Occupant Restraint Use",
-            "DATA": {}
+            "DATA": {
+                "0":"Not Used",
+                "1":"Belt Used",
+                "2":"Belt Used",
+                "3":"Belt Used",
+                "4":"Belt Used",
+                "7":"Not Used",
+                "8":"Belt Used",
+                "10":"Belt Used",
+                "11":"Belt Used",
+                "12":"Belt Used",
+                "20":"Not Used",
+                "97":"Belt Used",
+                "98":"Unknown",
+                "99":"Unknown"
+            }
         },
         "vehtype": {
             "TYPE": 2.0,
@@ -3752,7 +5287,13 @@
             "FORMAT": NaN,
             "LABEL": "Vehicle Type",
             "DATA": {
-                "": "PVpassenger vehicle \nBUSbus\nMHOMEmotorhome\nMHTRUCKmedium/heavy truck\nMCmotorcycle\nOTHMCother motored cycle\nOTHVTother vehicle type"
+                "PV": "passenger vehicle",
+                "BUS": "bus",
+                "MHOME": "motorhome",
+                "MHTRUCK":"medium/heavy truck",
+                "MC":"motorcycle",
+                "OTHMC":"other motored cycle",
+                "OTHVT":"other vehicle type"
             }
         },
         "race_me": {
@@ -3761,7 +5302,16 @@
             "FORMAT": NaN,
             "LABEL": "Mutually-Exclusive Race Categories\n\n",
             "DATA": {
-                "": "Not Fatal\nWhite\nBlack\nAIANAmerican Indian/Alaska Native\nAPIAsian/Pacific Islander\nMultiracial\nOth/Unk \nOther \nUnknown \nHispanic"
+                "Not Fatal": "Not Fatal",
+                "White":"White",
+                "Black":"Black",
+                "AIAN":"American Indian/Alaska Native",
+                "API":"Asian/Pacific Islander",
+                "Multiracial":"Multiracial",
+                "Oth/Unk":"Other/Unknown",
+                "Other":"Other",
+                "Unknown":"Unknown",
+                "Hispanic":"Hispanic"
             }
         },
         "CoRoadName": {
@@ -3797,28 +5347,40 @@
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Intersection Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "lanedep": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
-            "LABEL": "Lane Departure Involved",
-            "DATA": {}
+            "LABEL": "Lane-Departure",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "oppdir": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
             "LABEL": "Head-on Involved",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "wrongway": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
             "FORMAT": NaN,
-            "LABEL": "Wrong way Driver Involved",
-            "DATA": {}
+            "LABEL": "Wrongway Crash",
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "rep_typ": {
             "TYPE": 2.0,
@@ -3846,35 +5408,50 @@
             "LENGTH": 1.0,
             "FORMAT": NaN,
             "LABEL": "Run Off the Road (CLAS)",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "st_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
             "FORMAT": NaN,
             "LABEL": "State Road (Interstate, State Route, US Hwy)",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "cty_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
             "FORMAT": NaN,
             "LABEL": "County Road",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "city_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
             "FORMAT": NaN,
             "LABEL": "City Road",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "oth_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
             "FORMAT": NaN,
             "LABEL": "Other Road",
-            "DATA": {}
+            "DATA": {
+                "0": "No",
+                "1": "Yes"
+            }
         },
         "lab": {
             "TYPE": 2.0,
@@ -3882,7 +5459,8 @@
             "FORMAT": NaN,
             "LABEL": "Lab",
             "DATA": {
-                "": "nms  Drug Results from NMS Labs\nmissing/blank  Drug Results from WSP Lab"
+                "nms": "Drug Results from NMS Labs",
+                "missing/blank":"Drug Results from WSP Lab"
             }
         },
         "drug_thc": {
@@ -3898,7 +5476,7 @@
             "FORMAT": NaN,
             "LABEL": "Delta-9-THC  Result",
             "DATA": {
-                "1100": "-   Actual THC result in ng/ml of blood",
+                "1-100": "-   Actual THC result in ng/ml of blood",
                 "888": "THC confirmed but result unknown"
             }
         },
@@ -3915,12 +5493,12 @@
             "FORMAT": NaN,
             "LABEL": "Carboxy-THC Result",
             "DATA": {
-                "1500": "-   Actual carboxy-THC result in ng/ml of blood",
-                "888": "carboxy-THC confirmed but result unknown\nSPECIAL NOTE:",
-                "200": "May indicate actual value of",
-                "200200400": "or may indicate >, all other values are actual result\n  May indicate actual value of"
+                "1-500": "-   Actual carboxy-THC result in ng/ml of blood",
+                "888": "carboxy-THC confirmed but result unknown",
+                "200": "May indicate actual value of 200 or may indicate >200, all other values are actual result",
+                "400": "May indicate actual value of 400 or may indicate >400, all other values are actual result"
             }
-        },
+            },
         "drug_cann": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
