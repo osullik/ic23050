@@ -4,10 +4,12 @@
 ## Challenge Questions:
 
 1.	Among drivers involved in fatal crashes, what proportion are involved in crashes in communities where they live?
-	a.	Are there differences in the types of crashes and behavior factors in those crashes among “residents” versus those deemed to be not “from” the area?
+
+	a. Are there differences in the types of crashes and behavior factors in those crashes among “residents” versus those deemed to be not “from” the area?
 
 2.	Are there specific resident ZIP Codes that tend to produce higher-risk drivers that are involved in fatal crashes at a higher rate? 
-	a.	What are the population demographics of these high-risk driver producing ZIP Codes?
+
+	a. What are the population demographics of these high-risk driver producing ZIP Codes?
 
 
 ## Constraints:
