@@ -150,3 +150,6 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+## VENV Files
+ ./ic23050/*

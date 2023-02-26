@@ -49,7 +49,7 @@
 		- [X] PersonDataFile
 		- [X] Tables1
 		- [X] Tables2
-		- [ ] Tables3
+		- [X] Tables3
 		- [ ] Tables4
 		- [ ] Tables5
 		- [ ] Tables6
