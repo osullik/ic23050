@@ -45,6 +45,29 @@
 
 - [ ] Data Dictionary Encoding
 	- [ ] Turn data Dictionary into actual atomic dictionary. @Kent 
+		- [X] CrashDataFile
+		- [X] PersonDataFile
+		- [X] Tables1
+		- [ ] Tables2
+		- [ ] Tables3
+		- [ ] Tables4
+		- [ ] Tables5
+		- [ ] Tables6
+		- [ ] Tables7
+		- [ ] Tables8
+		- [ ] Tables9
+	- [ ] Manual Review & Edits
+		- [ ] CrashDataFile
+		- [ ] PersonDataFile
+		- [ ] Tables1
+		- [ ] Tables2
+		- [ ] Tables3
+		- [ ] Tables4
+		- [ ] Tables5
+		- [ ] Tables6
+		- [ ] Tables7
+		- [ ] Tables8
+		- [ ] Tables9
 
 - [ ] Write Abstract **(DUE 23 1200 Mar 23)**
 
