@@ -4,10 +4,12 @@
 ## Challenge Questions:
 
 1.	Among drivers involved in fatal crashes, what proportion are involved in crashes in communities where they live?
-	a.	Are there differences in the types of crashes and behavior factors in those crashes among “residents” versus those deemed to be not “from” the area?
+
+	a. Are there differences in the types of crashes and behavior factors in those crashes among “residents” versus those deemed to be not “from” the area?
 
 2.	Are there specific resident ZIP Codes that tend to produce higher-risk drivers that are involved in fatal crashes at a higher rate? 
-	a.	What are the population demographics of these high-risk driver producing ZIP Codes?
+
+	a. What are the population demographics of these high-risk driver producing ZIP Codes?
 
 
 ## Constraints:
@@ -26,7 +28,7 @@
 ## Timeline
 
 - [X] **25 1130 Feb 23:** Problem Brief
-- [ ] **25 Feb 23:** Geocoding Complete
+- [X] **25 Feb 23:** Geocoding Complete
 - [ ] **26 Feb 23:** Data Cleaning Complete
 
 - [ ] **02 1200 Mar 23:** 250 Word abstract due to Judges
@@ -35,13 +37,13 @@
  
 ## TO DO: 
 
-- [ ] Reverse Geocode of Coordinates
+- [X] Reverse Geocode of Coordinates
 	- [X] Google Maps API @Nicole -> Proceed with this
 	- [X] QGis Layer @Kent -> Have as backup
 
 - [ ] Data Cleaning
 	- [ ] Remove incomplete Records 
-	- [ ] Get Full addresses for each Lat/Long @ Nicole
+	- [X] Get Full addresses for each Lat/Long @ Nicole
 
 - [ ] Data Dictionary Encoding
 	- [ ] Turn data Dictionary into actual atomic dictionary. @Kent 
