@@ -72,21 +72,22 @@
 		- [X] Tables9
 
 - [ ] Tableau Analysis
-	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur*
-	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes*
-		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes
-		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes
-		- [ ] What are the demographics of the Highest Crash Rate ZIPs
-		- [ ] What are the demographics of the lowest Crash Rate ZIPs
-	- [ ] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute*
-	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID*
-	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID*
+	- [ ] Figure out how to collaborate on Tableau @Harsh
+	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Nicole
+	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes* @Nicole
+		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes @Kent
+		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes @Kent
+		- [ ] What are the demographics of the Highest Crash Rate ZIPs @Kent
+		- [ ] What are the demographics of the lowest Crash Rate ZIPs @Kent
+	- [ ] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute* @Kent
+	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID* @Kent
+	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID* @Kent
 
 
-- [ ] Get Data From US Census
-	- [ ] Commuting Data By ZIP
-	- [ ] Employment Data By ZIP
-	- [ ] Schooling Data by ZIP
+- [ ] Get Data From US Census @Harsh
+	- [ ] Commuting Data By ZIP @Harsh
+	- [ ] Employment Data By ZIP @Harsh
+	- [ ] Schooling Data by ZIP @Harsh
 
 - [ ] Write Abstract **(DUE 02 1200 Mar 23)**
 
