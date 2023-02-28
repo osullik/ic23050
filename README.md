@@ -72,7 +72,7 @@
 		- [X] Tables9
 
 - [ ] Tableau Analysis
-	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur*
+	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* 
 	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes*
 		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes
 		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes
