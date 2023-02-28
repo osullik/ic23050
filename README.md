@@ -82,12 +82,16 @@
 	- [ ] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute* @Kent
 	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID* @Kent
 	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID* @Kent
+	- [ ] Is there a Correlation between alcohol and time of day 
+	- [ ] Is there a correlation between animal strikes and time of day. 
 
 
 - [ ] Get Data From US Census @Harsh
 	- [ ] Commuting Data By ZIP @Harsh
 	- [ ] Employment Data By ZIP @Harsh
 	- [ ] Schooling Data by ZIP @Harsh
+
+- [ ] Embed in a web page / interactive workbook @harsh
 
 - [ ] Write Abstract **(DUE 02 1200 Mar 23)**
 
