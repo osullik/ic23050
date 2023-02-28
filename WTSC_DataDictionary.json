@@ -3,28 +3,28 @@
         "year": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Year",
             "DATA": {}
         },
         "par": {
             "TYPE": 2.0,
             "LENGTH": 7.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Police Accident Report Number",
             "DATA": {}
         },
         "investjur": {
             "TYPE": 2.0,
             "LENGTH": 20.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Investigating Agency",
             "DATA": {}
         },
         "repjur": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Reporting Jurisdiction",
             "DATA": {}
         },
@@ -45,14 +45,14 @@
         "accday": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Day",
             "DATA": {}
         },
         "accmon": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Month",
             "DATA": {
                 "1":"January",
@@ -72,7 +72,7 @@
         "holiday": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Holiday Related",
             "DATA": {
                 "00": "Not Holiday Related",
@@ -91,28 +91,28 @@
         "county": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "County #",
             "DATA": {}
         },
         "co_char": {
             "TYPE": 2.0,
             "LENGTH": 20.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "County Name",
             "DATA": {}
         },
         "city": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "City",
             "DATA": {}
         },
         "weather": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Weather Condition",
             "DATA": {
                 "00": "No Additional Atmospheric Conditions",
@@ -134,7 +134,7 @@
         "weather2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Weather Condition 2",
             "DATA": {
                 "00": "No Additional Atmospheric Conditions",
@@ -156,7 +156,7 @@
         "lightcond": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Light Condition",
             "DATA": {
                 "1": "Daylight",
@@ -173,7 +173,7 @@
         "surfcond": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Road Surface Condition",
             "DATA": {
                 "1": "Dry",
@@ -190,7 +190,7 @@
         "surftype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Road Surface Type",
             "DATA": {
                 "1": "Concrete",
@@ -206,28 +206,28 @@
         "numfatal": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Fatalities in Crash",
             "DATA": {}
         },
         "nmforms": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of NonMotorists in Crash",
             "DATA": {}
         },
         "pforms": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Persons in Crash",
             "DATA": {}
         },
         "vforms": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Vehicles in Crash",
             "DATA": {}
         },
@@ -255,14 +255,14 @@
         "fhevent": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "First Harmful Event",
             "DATA": {}
         },
         "hitrun": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRASH Level Hit and Run Indicator",
             "DATA": {
                 "0": "No",
@@ -272,7 +272,7 @@
         "manncol": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Manner of Collision of the First Harmful Event",
             "DATA": {
                 "0": "The fhevent was Not a collision with a motor vehicle in transport",
@@ -301,7 +301,7 @@
         "reljunc": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Relation to Junction",
             "DATA": {
                 "01": "Non-Junction",
@@ -323,7 +323,7 @@
         "reljuncinter": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Within Interchange?",
             "DATA": {
                 "0": "No",
@@ -335,7 +335,7 @@
         "funcsystem": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Functional System\n(2015 and later)",
             "DATA": {
                 "1": "Interstate",
@@ -353,7 +353,7 @@
         "landuse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Land Use",
             "DATA": {
                 "1": "Rural",
@@ -366,7 +366,7 @@
         "ownership": {
             "TYPE": 2.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Roadway Ownership",
             "DATA": {
                 "1": "State Highway Agency",
@@ -403,7 +403,7 @@
         "intersectiontype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Type of Intersection",
             "DATA": {
                 "1": "No Intersection",
@@ -424,7 +424,7 @@
         "funclass": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Federal Functional Class  (Primary Roadway) ",
             "DATA": {
                 "01": "RURAL-Principal Arterial",
@@ -447,7 +447,7 @@
         "route": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Administrative Road Class",
             "DATA": {
                 "1": "Interstate",
@@ -464,7 +464,7 @@
         "schlbus": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "School Bus Involved",
             "DATA": {
                 "0": "No",
@@ -475,7 +475,7 @@
         "spejur": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Special Jurisdiction",
             "DATA": {
                 "0": "No Special Jurisdiction",
@@ -491,14 +491,14 @@
         "contdev": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Traffic Control Device",
             "DATA": {}
         },
         "devfunc": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Traffic Device Function",
             "DATA": {
                 "0": "No Device",
@@ -512,35 +512,35 @@
         "trafid1": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Primary Roadway ",
             "DATA": {}
         },
         "trafid2": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Secondary Roadway ",
             "DATA": {}
         },
         "x": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Longitude",
             "DATA": {}
         },
         "y": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Latitude",
             "DATA": {}
         },
         "wk_zone": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Work Zone Involvement",
             "DATA": {
                 "0": "None",
@@ -553,14 +553,14 @@
         "crf1-crf3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Related Factors",
             "DATA": {}
         },
         "spdlim": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Posted Speed Limit",
             "DATA": {
                 "00": "No statutory limit",
@@ -572,7 +572,7 @@
         "train_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Train Involved",
             "DATA": {
                 "0": "No",
@@ -582,7 +582,7 @@
         "wildlife_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Wildlife Involved",
             "DATA": {
                 "0": "No",
@@ -592,7 +592,7 @@
         "rotr_fars": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Run Off the Road Involved\n(FARS data)",
             "DATA": {
                 "0": "No",
@@ -602,7 +602,7 @@
         "intersect_fars": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Intersection Involved\n(FARS data)",
             "DATA": {
                 "0": "No",
@@ -612,7 +612,7 @@
         "dd_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drinking Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -622,7 +622,7 @@
         "aid_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Impaired Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -632,7 +632,7 @@
         "dpd_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Positive Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -642,7 +642,7 @@
         "id_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Impaired Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -652,7 +652,7 @@
         "mj_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Marijuana Positive Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -662,7 +662,7 @@
         "impnm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Impaired Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -672,7 +672,7 @@
         "ainm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Impaired Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -682,7 +682,7 @@
         "dpnm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Positive Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -692,7 +692,7 @@
         "speed_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Speeding Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -702,7 +702,7 @@
         "unlic_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unlicensed Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -712,7 +712,7 @@
         "unendmc_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unendorsed Motorcyclist-Involved",
             "DATA": {
                 "0": "No",
@@ -722,7 +722,7 @@
         "drowsy_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drowsy Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -732,7 +732,7 @@
         "drdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Distracted Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -742,7 +742,7 @@
         "nmdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Distracted Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -752,7 +752,7 @@
         "fty_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Involved Driver Failing to Yield Right-of-Way",
             "DATA": {
                 "0": "No",
@@ -762,7 +762,7 @@
         "unrestfat_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unrestrained Occupant Fatality-Involved",
             "DATA": {
                 "0": "No",
@@ -772,7 +772,7 @@
         "dr1617_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "16-17 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -782,7 +782,7 @@
         "dr1820_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "18-20 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -792,7 +792,7 @@
         "dr1620_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "16-20 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -802,7 +802,7 @@
         "dr2125_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "21-25 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -812,7 +812,7 @@
         "dr1625_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "16-25 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -822,7 +822,7 @@
         "dr65_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "65+ Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -830,9 +830,9 @@
             }
         },
         "dr70_inv": {
-            "TYPE": NaN,
-            "LENGTH": NaN,
-            "FORMAT": NaN,
+            "TYPE": "String",
+            "LENGTH": "String",
+            "FORMAT": "String",
             "LABEL": "70+ Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -842,7 +842,7 @@
         "dr75_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "75+ Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -852,7 +852,7 @@
         "mc_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Motorcycle-Involved",
             "DATA": {
                 "0": "No",
@@ -862,7 +862,7 @@
         "pv_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Passenger Vehicle-Involved",
             "DATA": {
                 "0": "No",
@@ -872,7 +872,7 @@
         "ht_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Heavy Truck-Involved",
             "DATA": {
                 "0": "No",
@@ -882,7 +882,7 @@
         "ped_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Pedestrian-Involved",
             "DATA": {
                 "0": "No",
@@ -892,7 +892,7 @@
         "bike_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Bicyclist-Involved",
             "DATA": {
                 "0": "No",
@@ -902,7 +902,7 @@
         "roadclass": {
             "TYPE": 2.0,
             "LENGTH": 15.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Road Class",
             "DATA": {
                 "1": "Interstate",
@@ -919,7 +919,7 @@
         "urbrur": {
             "TYPE": 2.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Urban-Rural Classification",
             "DATA": {
                 "R": "Rural",
@@ -930,7 +930,7 @@
         "dayweek": {
             "TYPE": 2.0,
             "LENGTH": 12.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Day of Week",
             "DATA": {
                 "1": "Sunday",
@@ -945,35 +945,35 @@
         "CoRoadName": {
             "TYPE": 1.0,
             "LENGTH": 50.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - County Road Name",
             "DATA": {}
         },
         "CoMP": {
             "TYPE": 2.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - County Road Milepost",
             "DATA": {}
         },
         "IntCoRoadName": {
             "TYPE": 1.0,
             "LENGTH": 50.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - Intersecting County Road Name",
             "DATA": {}
         },
         "IntCoMP": {
             "TYPE": 2.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - Intersecting County Road Milepost",
             "DATA": {}
         },
         "intersect": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Intersection Involved",
             "DATA": {
                 "0": "No",
@@ -983,7 +983,7 @@
         "lanedep": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Lane-Departure",
             "DATA": {
                 "0": "No",
@@ -993,7 +993,7 @@
         "oppdir": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Head-on Involved",
             "DATA": {
                 "0": "No",
@@ -1003,7 +1003,7 @@
         "wrongway": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Wrongway Crash",
             "DATA": {
                 "0": "No",
@@ -1013,28 +1013,28 @@
         "rep_typ": {
             "TYPE": 2.0,
             "LENGTH": 24.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Report Type",
             "DATA": {}
         },
         "investag": {
             "TYPE": 2.0,
             "LENGTH": 26.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Investigating Agency Level",
             "DATA": {}
         },
         "repag_long": {
             "TYPE": 2.0,
             "LENGTH": 35.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Investigating Agency",
             "DATA": {}
         },
         "rotr": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Run Off the Road (CLAS)",
             "DATA": {
                 "0": "No",
@@ -1044,7 +1044,7 @@
         "st_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "State Road (Interstate, State Route, US Hwy)",
             "DATA": {
                 "0": "No",
@@ -1054,7 +1054,7 @@
         "cty_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "County Road",
             "DATA": {
                 "0": "No",
@@ -1064,7 +1064,7 @@
         "city_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "City Road",
             "DATA": {
                 "0": "No",
@@ -1074,7 +1074,7 @@
         "oth_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Other Road",
             "DATA": {
                 "0": "No",
@@ -1086,28 +1086,28 @@
         "year": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Year",
             "DATA": {}
         },
         "par": {
             "TYPE": 2.0,
             "LENGTH": 7.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Police Accident Report Number",
             "DATA": {}
         },
         "investjur": {
             "TYPE": 2.0,
             "LENGTH": 20.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Investigating Agency",
             "DATA": {}
         },
         "repjur": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Reporting Jurisdiction",
             "DATA": {}
         },
@@ -1128,14 +1128,14 @@
         "accday": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Day",
             "DATA": {}
         },
         "accmon": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Month",
             "DATA": {
                 "1":"January",
@@ -1155,28 +1155,28 @@
         "county": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "County #",
             "DATA": {}
         },
         "co_char": {
             "TYPE": 2.0,
             "LENGTH": 20.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "County Name",
             "DATA": {}
         },
         "city": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "City",
             "DATA": {}
         },
         "weather": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Weather Condition",
             "DATA": {
                 "00": "No Additional Atmospheric Conditions",
@@ -1198,7 +1198,7 @@
         "weather2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Weather Condition 2",
             "DATA": {
                 "00": "No Additional Atmospheric Conditions",
@@ -1220,7 +1220,7 @@
         "lightcond": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Light Condition",
             "DATA": {
                 "1": "Daylight",
@@ -1237,7 +1237,7 @@
         "surfcond": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Road Surface Condition",
             "DATA": {
                 "1": "Dry",
@@ -1254,7 +1254,7 @@
         "surftype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Road Surface Type",
             "DATA": {
                 "1": "Concrete",
@@ -1270,28 +1270,28 @@
         "numfatal": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Fatalities in Crash",
             "DATA": {}
         },
         "nmforms": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of NonMotorists in Crash",
             "DATA": {}
         },
         "pforms": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Persons in Crash",
             "DATA": {}
         },
         "vforms": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Vehicles in Crash",
             "DATA": {}
         },
@@ -1319,14 +1319,14 @@
         "fhevent": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "First Harmful Event",
             "DATA": {}
         },
         "hitrun": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRASH Level Hit and Run Indicator",
             "DATA": {
                 "0": "No",
@@ -1336,7 +1336,7 @@
         "manncol": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Manner of Collision of the First Harmful Event",
             "DATA": {
                 "0": "The fhevent was Not a collision with a motor vehicle in transport",
@@ -1365,7 +1365,7 @@
         "reljunc": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Relation to Junction",
             "DATA": {
                 "01": "Non-Junction",
@@ -1387,7 +1387,7 @@
         "reljuncinter": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Within Interchange?",
             "DATA": {
                 "0": "No",
@@ -1399,7 +1399,7 @@
         "funcsystem": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Functional System\n(2015 and later)",
             "DATA": {
                 "1": "Interstate",
@@ -1417,7 +1417,7 @@
         "landuse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Land Use",
             "DATA": {
                 "1": "Rural",
@@ -1430,7 +1430,7 @@
         "ownership": {
             "TYPE": 2.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Roadway Ownership",
             "DATA": {
                 "1": "State Highway Agency",
@@ -1467,7 +1467,7 @@
         "intersectiontype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Type of Intersection",
             "DATA": {
                 "1": "No Intersection",
@@ -1488,7 +1488,7 @@
         "funclass": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Federal Functional Class  (Primary Roadway) ",
             "DATA": {
                 "01": "RURAL-Principal Arterial",
@@ -1511,7 +1511,7 @@
         "route": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Administrative Road Class",
             "DATA": {
                 "1": "Interstate",
@@ -1528,7 +1528,7 @@
         "schlbus": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "School Bus Involved",
             "DATA": {
                 "0": "No",
@@ -1539,7 +1539,7 @@
         "spejur": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Special Jurisdiction",
             "DATA": {
                 "0": "No Special Jurisdiction",
@@ -1555,14 +1555,14 @@
         "contdev": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Traffic Control Device",
             "DATA": {}
         },
         "devfunc": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Traffic Device Function",
             "DATA": {
                 "0": "No Device",
@@ -1576,35 +1576,35 @@
         "trafid1": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Primary Roadway ",
             "DATA": {}
         },
         "trafid2": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Secondary Roadway ",
             "DATA": {}
         },
         "x": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Longitude",
             "DATA": {}
         },
         "y": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Latitude",
             "DATA": {}
         },
         "wk_zone": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Work Zone Involvement",
             "DATA": {
                 "0": "None",
@@ -1617,21 +1617,21 @@
         "crf1-crf3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Related Factors",
             "DATA": {}
         },
         "vnumber": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Number",
             "DATA": {}
         },
         "crashtype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Crash Type",
             "DATA": {
                 "00": "No Impact",
@@ -1643,14 +1643,14 @@
         "criticalevent": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Critical Event",
             "DATA": {}
         },
         "criticaleventcat": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Critical Event Category - TYPE of event critical to this vehicle's involvement in the crash ",
             "DATA": {
                 "1": "Loss of Control Due To...",
@@ -1666,21 +1666,21 @@
         "spdlim": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Posted Speed Limit",
             "DATA": {}
         },
         "body": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Body Type",
             "DATA": {}
         },
         "trailer": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Trailing Vehicle",
             "DATA": {
                 "0": "No trailing unit",
@@ -1696,7 +1696,7 @@
         "emerg": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Emergency Vehicle",
             "DATA": {
                 "0": "Not Applicable",
@@ -1712,7 +1712,7 @@
         "hazcargo": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Hazardous Materials (HM) Cargo",
             "DATA": {
                 "0": "Not Applicable",
@@ -1726,7 +1726,7 @@
         "leave": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Manner of Leaving Scene",
             "DATA": {
                 "2": "Towed Due to Disabling Damage",
@@ -1739,14 +1739,14 @@
         "mhevent": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Most Harmful Event",
             "DATA": {}
         },
         "roadalgn": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Roadway Alignment",
             "DATA": {
                 "20091": "Through  \n Straight",
@@ -1762,7 +1762,7 @@
         "roadprof": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Roadway Grade",
             "DATA": {
                 "20091": "Through  \n Level",
@@ -1775,7 +1775,7 @@
         "traflane": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Total Number of Traffic Lanes",
             "DATA": {
                 "0": "Non-trafficway of Driveway Access",
@@ -1793,7 +1793,7 @@
         "trafflow": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Trafficway Description",
             "DATA": {
                 "0": "Non-trafficway or driveway access",
@@ -1810,14 +1810,14 @@
         "vehmanvr": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Pre-Crash Vehicle Manuveur",
             "DATA": {}
         },
         "numoccs": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Occupants in Vehicle",
             "DATA": {
                 "00": "None",
@@ -1829,7 +1829,7 @@
         "regowner": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Resistered Vehicle Owner",
             "DATA": {
                 "0": "Not Applicable, vehicle unregistered",
@@ -1845,7 +1845,7 @@
         "regstate": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Registration State",
             "DATA": {
                 "91": "Same codes as Driver License State  except for:\nNot reported",
@@ -1858,7 +1858,7 @@
         "spuse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Special Use Vehicle",
             "DATA": {
                 "0": "No Special Use Noted",
@@ -1887,14 +1887,14 @@
         "make": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Make",
             "DATA": {}
         },
         "model": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Model",
             "DATA": {
                 "001-399": "Passenger Car",
@@ -1914,7 +1914,7 @@
         "modelyr": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Year",
             "DATA": {
                 "9998": "Not Reported",
@@ -1924,21 +1924,21 @@
         "vrf1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Related Factor 1",
             "DATA": {}
         },
         "vrf2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Related Factor 2",
             "DATA": {}
         },
         "seqevent1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sequence of Events 1",
             "DATA": {
                 "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
@@ -1960,7 +1960,7 @@
         "seqevent2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sequence of Events 2",
             "DATA": {
                 "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
@@ -1982,7 +1982,7 @@
         "seqevent3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sequence of Events 3",
             "DATA": {
                 "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
@@ -2004,7 +2004,7 @@
         "seqevent4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sequence of Events 4",
             "DATA": {
                 "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
@@ -2026,7 +2026,7 @@
         "seqevent5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sequence of Events 5",
             "DATA": {
                 "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
@@ -2048,7 +2048,7 @@
         "seqevent6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sequence of Events 6",
             "DATA": {
                 "60": "These elements describe the series of linked events comprising a crash, and are identical to codes shown in First Harmful Event  but include the following as well:\n  Cargo/equipment loss or shift",
@@ -2070,14 +2070,14 @@
         "pnumber": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Person Number",
             "DATA": {}
         },
         "ptype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Person Type",
             "DATA": {
                 "1": "Driver of a Motor Vehicle In-Transport",
@@ -2101,7 +2101,7 @@
         "age": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Age",
             "DATA": {
                 "000": "Less than One Year",
@@ -2113,7 +2113,7 @@
         "sex": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sex",
             "DATA": {
                 "1": "Male",
@@ -2125,7 +2125,7 @@
         "hispanic": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Hispanic Origin",
             "DATA": {
                 "00": "Not a Fatality",
@@ -2142,7 +2142,7 @@
         "race1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Race",
             "DATA": {
                 "00": "Not a Fatality",
@@ -2185,7 +2185,7 @@
         "race2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Race",
             "DATA": {
                 "00": "Not a Fatality",
@@ -2228,7 +2228,7 @@
         "race3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Race",
             "DATA": {
                 "00": "Not a Fatality",
@@ -2271,7 +2271,7 @@
         "race4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Race",
             "DATA": {
                 "00": "Not a Fatality",
@@ -2314,7 +2314,7 @@
         "race5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Race",
             "DATA": {
                 "00": "Not a Fatality",
@@ -2357,7 +2357,7 @@
         "injury": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Injury Level",
             "DATA": {
                 "0": "No Injury",
@@ -2374,7 +2374,7 @@
         "diedscene": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Died at scene or En route",
             "DATA": {
                 "0": "Not Applicable",
@@ -2386,7 +2386,7 @@
         "restraint": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Restraint Use",
             "DATA": {
                 "20": "None Used/Not Applicable",
@@ -2407,7 +2407,7 @@
         "restraintmisuse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Restraint Misuse",
             "DATA": {
                 "0": "No indication of misuse",
@@ -2418,7 +2418,7 @@
         "helmet": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Helmet Use",
             "DATA": {
                 "20": "Not Applicable",
@@ -2433,7 +2433,7 @@
         "helmetmisuse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Helmet Misuse",
             "DATA": {
                 "7": "None Used/Not Applicable",
@@ -2444,14 +2444,14 @@
         "seatpos": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Seat Position (in vehicle)",
             "DATA": {}
         },
         "takehosp": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Transport to Hospital",
             "DATA": {
                 "0": "Not Transported",
@@ -2482,7 +2482,7 @@
         "cert": {
             "TYPE": 2.0,
             "LENGTH": 12.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "WA Death Certificate Number (long)",
             "DATA": {
                 "4": "Ten-digit Death Certificate number:\nFirst  digits  City \nNext",
@@ -2493,14 +2493,14 @@
         "cernum_wa": {
             "TYPE": 2.0,
             "LENGTH": 12.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "WA Death Certificate Number (short)",
             "DATA": {}
         },
         "commlic": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Commercial Drivers License (CDL)",
             "DATA": {
                 "0": "No CDL",
@@ -2517,7 +2517,7 @@
         "licendor": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Compliance with CDL Endorsements",
             "DATA": {
                 "0": "No Endorsements Required for this Vehicle",
@@ -2531,7 +2531,7 @@
         "licrestrict": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Compliance with License Restrictions",
             "DATA": {
                 "0": "No Restrictions/Not Applicable",
@@ -2544,7 +2544,7 @@
         "liccomp": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Compliance with Vehicle Class",
             "DATA": {
                 "0": "Not Licensed",
@@ -2558,7 +2558,7 @@
         "drivpres": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver presence",
             "DATA": {
                 "0": "No Driver Present/Not Applicable",
@@ -2572,35 +2572,35 @@
         "drf1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver-related factor 1",
             "DATA": {}
         },
         "drf2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver-related factor 2",
             "DATA": {}
         },
         "drf3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver-related factor 3",
             "DATA": {}
         },
         "drf4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver-related factor 4",
             "DATA": {}
         },
         "distract1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Distraction 1",
             "DATA": {
                 "0": "Not Distracted",
@@ -2631,7 +2631,7 @@
         "distract2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Distraction 2",
             "DATA": {
                 "0": "Not Distracted",
@@ -2662,7 +2662,7 @@
         "distract3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Distraction 3",
             "DATA": {
                 "0": "Not Distracted",
@@ -2693,7 +2693,7 @@
         "distract4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Distraction 4",
             "DATA": {
                 "0": "Not Distracted",
@@ -2724,7 +2724,7 @@
         "distract5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Distraction 5",
             "DATA": {
                 "0": "Not Distracted",
@@ -2755,7 +2755,7 @@
         "distract6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Distraction 6",
             "DATA": {
                 "0": "Not Distracted",
@@ -2786,7 +2786,7 @@
         "dricond1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Condition 1",
             "DATA": {
                 "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
@@ -2807,7 +2807,7 @@
         "dricond2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Condition 2",
             "DATA": {
                 "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
@@ -2828,7 +2828,7 @@
         "dricond3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Condition 3",
             "DATA": {
                 "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
@@ -2849,7 +2849,7 @@
         "dricond4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Condition 4",
             "DATA": {
                 "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
@@ -2870,7 +2870,7 @@
         "dricond5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Condition 5",
             "DATA": {
                 "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
@@ -2891,7 +2891,7 @@
         "dricond6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Condition 6",
             "DATA": {
                 "1": "Identifies pre-existing driver physical impairments contributing to the crash:\nNone/apparently normal",
@@ -2912,35 +2912,35 @@
         "dzip": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver ZIP Code",
             "DATA": {}
         },
         "licstate": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver License State",
             "DATA": {}
         },
         "drhgt_in": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Height",
             "DATA": {}
         },
         "weight": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Weight",
             "DATA": {}
         },
         "noncdl": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver License Status \n(non-commercial)",
             "DATA": {
                 "0": "Not Licensed",
@@ -2955,7 +2955,7 @@
         "noncdltype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver License Type \n(non-commercial)",
             "DATA": {
                 "0": "Not Licensed",
@@ -2970,123 +2970,123 @@
         "prevdwi": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior DUI Convictions",
             "DATA": {
-                "0-98":"Actual Number Recorded".
+                "0-98":"Actual Number Recorded",
                 "99": "unknown"
             }
         },
         "prevoth": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior Other Traffic Convictions",
             "DATA": {}
         },
         "prevacc": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior Crashes",
             "DATA": {}
         },
         "prevspd": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior Speeding Convictions",
             "DATA": {
-                "0-98":"Actual Number Recorded".
+                "0-98":"Actual Number Recorded",
                 "99": "unknown"
             }
         },
         "prevsus": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior License Suspensions",
             "DATA": {
-                "0-98":"Actual Number Recorded".
+                "0-98":"Actual Number Recorded",
                 "99": "unknown"
             }
         },
         "prevpersemin": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior License Suspensions - Minor per se related",
             "DATA": {
-                "0-98":"Actual Number Recorded".
+                "0-98":"Actual Number Recorded",
                 "99": "unknown"
             }
         },
         "prevperse": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior License Suspensions - Per se related",
             "DATA": {
-                "0-98":"Actual Number Recorded".
+                "0-98":"Actual Number Recorded",
                 "99": "unknown"
             }
         },
         "prevsusoth": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "#Prior License Suspensions - Other",
             "DATA": {
-                "0-98":"Actual Number Recorded".
+                "0-98":"Actual Number Recorded",
                 "99": "unknown"
             }
         },
         "driviol1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Violation 1",
             "DATA": {}
         },
         "driviol2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Violation 2",
             "DATA": {}
         },
         "driviol3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Violation 3",
             "DATA": {}
         },
         "driviol4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Violation 4",
             "DATA": {}
         },
         "driviol5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Violation 5",
             "DATA": {}
         },
         "driviol6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver Violation 6",
             "DATA": {}
         },
         "spdrel": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Speeding Related",
             "DATA": {
                 "0":"No",
@@ -3114,7 +3114,7 @@
         "airbag": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Air Bag Deployed",
             "DATA": {
                 "0": "Not Applicable",
@@ -3133,7 +3133,7 @@
         "ejection": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Ejection",
             "DATA": {
                 "0": "Not Ejected",
@@ -3148,7 +3148,7 @@
         "ejectpath": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Ejection Path",
             "DATA": {
                 "0": "Ejection path not applicable",
@@ -3166,7 +3166,7 @@
         "extricat": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Extrication",
             "DATA": {
                 "0": "Not Extricated / Not Applicable",
@@ -3177,7 +3177,7 @@
         "injurwrk": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Work-Related Injury",
             "DATA": {
                 "0": "No",
@@ -3189,7 +3189,7 @@
         "methalc": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Method of Alcohol Determination",
             "DATA": {
                 "1": "Evidential Test (Breath, Blood, Urine)",
@@ -3204,7 +3204,7 @@
         "methdrug": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Method of Drug Determination",
             "DATA": {
                 "1": "Evidential Test",
@@ -3217,14 +3217,14 @@
         "nmlocat": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Location (at time of crash)",
             "DATA": {}
         },
         "strikveh": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Number of Vehicle Striking NM",
             "DATA": {
                 "000": "Occupant of a Motor Vehicle",
@@ -3235,28 +3235,28 @@
         "prf1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Person Related Factor 1",
             "DATA": {}
         },
         "prf2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Person Related Factor 2",
             "DATA": {}
         },
         "prf3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Person Related Factor 3",
             "DATA": {}
         },
         "druginv": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Involvement (police identified)",
             "DATA": {
                 "0": "No",
@@ -3268,7 +3268,7 @@
         "alcinvol": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Involvement (police identified)",
             "DATA": {
                 "0": "No",
@@ -3280,7 +3280,7 @@
         "drugsts": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Status",
             "DATA": {
                 "0": "Test Not Given",
@@ -3293,7 +3293,7 @@
         "drugres1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 1",
             "DATA": {
                 "000": "Test Not Given",
@@ -3312,7 +3312,7 @@
         "drugres2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 2",
             "DATA": {
                 "000": "Test Not Given",
@@ -3331,7 +3331,7 @@
         "drugres3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 3",
             "DATA": {
                 "000": "Test Not Given",
@@ -3350,7 +3350,7 @@
         "drugres4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 4",
             "DATA": {
                 "000": "Test Not Given",
@@ -3369,7 +3369,7 @@
         "drugres5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 5",
             "DATA": {
                 "000": "Test Not Given",
@@ -3388,7 +3388,7 @@
         "drugres6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 6",
             "DATA": {
                 "000": "Test Not Given",
@@ -3407,7 +3407,7 @@
         "drugres7": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 7",
             "DATA": {
                 "000": "Test Not Given",
@@ -3426,7 +3426,7 @@
         "drugres8": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 8",
             "DATA": {
                 "000": "Test Not Given",
@@ -3445,7 +3445,7 @@
         "drugres9": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 9",
             "DATA": {
                 "000": "Test Not Given",
@@ -3464,7 +3464,7 @@
         "drugres10": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 10",
             "DATA": {
                 "000": "Test Not Given",
@@ -3483,7 +3483,7 @@
         "drugres11": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 11",
             "DATA": {
                 "000": "Test Not Given",
@@ -3502,7 +3502,7 @@
         "drugres12": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Test Result 12",
             "DATA": {
                 "000": "Test Not Given",
@@ -3521,7 +3521,7 @@
         "drugtst1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 1",
             "DATA": {
                 "00": "Test Not Given",
@@ -3546,7 +3546,7 @@
         "drugtst2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 2",
             "DATA": {
                 "00": "Test Not Given",
@@ -3571,7 +3571,7 @@
         "drugtst3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 3",
             "DATA": {
                 "00": "Test Not Given",
@@ -3596,7 +3596,7 @@
         "drugtst4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 4",
             "DATA": {
                 "00": "Test Not Given",
@@ -3621,7 +3621,7 @@
         "drugtst5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 5",
             "DATA": {
                 "00": "Test Not Given",
@@ -3646,7 +3646,7 @@
         "drugtst6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 6",
             "DATA": {
                 "00": "Test Not Given",
@@ -3671,7 +3671,7 @@
         "drugtst7": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 7",
             "DATA": {
                 "00": "Test Not Given",
@@ -3696,7 +3696,7 @@
         "drugtst8": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 8",
             "DATA": {
                 "00": "Test Not Given",
@@ -3721,7 +3721,7 @@
         "drugtst9": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 9",
             "DATA": {
                 "00": "Test Not Given",
@@ -3746,7 +3746,7 @@
         "drugtst10": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 10",
             "DATA": {
                 "00": "Test Not Given",
@@ -3771,7 +3771,7 @@
         "drugtst11": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 11",
             "DATA": {
                 "00": "Test Not Given",
@@ -3796,7 +3796,7 @@
         "drugtst12": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Specimen 12",
             "DATA": {
                 "00": "Test Not Given",
@@ -3821,7 +3821,7 @@
         "alcsts": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Test Status",
             "DATA": {
                 "0": "Test Not Given",
@@ -3834,7 +3834,7 @@
         "alctst": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Test Type",
             "DATA": {
                 "00": "Test Not Given",
@@ -3870,7 +3870,7 @@
         "nmact1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Action 1",
             "DATA": {
                 "00": "None Noted",
@@ -3901,7 +3901,7 @@
         "nmact2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Action 2",
             "DATA": {
                 "00": "None Noted",
@@ -3932,7 +3932,7 @@
         "nmact3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Action 3",
             "DATA": {
                 "00": "None Noted",
@@ -3963,7 +3963,7 @@
         "nmact4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Action 4",
             "DATA": {
                 "00": "None Noted",
@@ -3994,7 +3994,7 @@
         "nmact5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Action 5",
             "DATA": {
                 "00": "None Noted",
@@ -4025,7 +4025,7 @@
         "nmact6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Action 6",
             "DATA": {
                 "00": "None Noted",
@@ -4056,7 +4056,7 @@
         "nmprior1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Prior 1",
             "DATA": {
                 "01": "Going To or From School",
@@ -4081,7 +4081,7 @@
         "nmprior2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Prior 2",
             "DATA": {
                 "01": "Going To or From School",
@@ -4106,7 +4106,7 @@
         "nmprior3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Prior 3",
             "DATA": {
                 "01": "Going To or From School",
@@ -4131,7 +4131,7 @@
         "nmprior4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Prior 4",
             "DATA": {
                 "01": "Going To or From School",
@@ -4156,7 +4156,7 @@
         "nmprior5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Prior 5",
             "DATA": {
                 "01": "Going To or From School",
@@ -4181,7 +4181,7 @@
         "nmprior6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Prior 6",
             "DATA": {
                 "01": "Going To or From School",
@@ -4206,7 +4206,7 @@
         "nmcond1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Condition 1",
             "DATA": {
                 "01": "Ill, Blackout",
@@ -4227,7 +4227,7 @@
         "nmcond2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Condition 2",
             "DATA": {
                 "01": "Ill, Blackout",
@@ -4248,7 +4248,7 @@
         "nmcond3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Condition 3",
             "DATA": {
                 "01": "Ill, Blackout",
@@ -4269,7 +4269,7 @@
         "nmcond4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Condition 4",
             "DATA": {
                 "01": "Ill, Blackout",
@@ -4290,7 +4290,7 @@
         "nmcond5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Condition 5",
             "DATA": {
                 "01": "Ill, Blackout",
@@ -4311,7 +4311,7 @@
         "nmcond6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Condition 6",
             "DATA": {
                 "01": "Ill, Blackout",
@@ -4332,7 +4332,7 @@
         "nmdistract1": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Distraction 1",
             "DATA": {
                 "00": "Not Distracted",
@@ -4359,7 +4359,7 @@
         "nmdistract2": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Distraction 2",
             "DATA": {
                 "00": "Not Distracted",
@@ -4386,7 +4386,7 @@
         "nmdistract3": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Distraction 3",
             "DATA": {
                 "00": "Not Distracted",
@@ -4413,7 +4413,7 @@
         "nmdistract4": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Distraction 4",
             "DATA": {
                 "00": "Not Distracted",
@@ -4440,7 +4440,7 @@
         "nmdistract5": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Distraction 5",
             "DATA": {
                 "00": "Not Distracted",
@@ -4467,7 +4467,7 @@
         "nmdistract6": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Distraction 6",
             "DATA": {
                 "00": "Not Distracted",
@@ -4494,7 +4494,7 @@
         "safety": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "NonMotorist Safety Equipment (2010-2016 ONLY)",
             "DATA": {
                 "1": "None Used",
@@ -4510,7 +4510,7 @@
         "nmsafe_helmet": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-motorist HELMET Use",
             "DATA": {
                 "1": "No",
@@ -4522,7 +4522,7 @@
         "nmsafe_pads": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-Motorist Use of Protective Pads",
             "DATA": {
                 "1": "No",
@@ -4534,7 +4534,7 @@
         "nmsafe_oth": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-Motorist Use of OTHER Protective Safety Equipment",
             "DATA": {
                 "1": "No",
@@ -4546,7 +4546,7 @@
         "nmprev_ref": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-Motorist Use of Reflective Clothing/Carried Item",
             "DATA": {
                 "1": "No",
@@ -4558,7 +4558,7 @@
         "nmprev_lgt": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-Motorist Use of Lighting",
             "DATA": {
                 "1": "No",
@@ -4570,7 +4570,7 @@
         "nmprev_oth": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-Motorist Use of Other Preventative Safety Equipment",
             "DATA": {
                 "1": "No",
@@ -4582,7 +4582,7 @@
         "crashlocation": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "\n\nCrash Location\n",
             "DATA": {
                 "1": "At Intersection",
@@ -4595,14 +4595,14 @@
         "nmcrashtype": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Non-Motorist Involved Crash Type",
             "DATA": {}
         },
         "crosswalk": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Marked Crosswalk Presence",
             "DATA": {
                 "0": "None noted",
@@ -4613,7 +4613,7 @@
         "schoolzone": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "School Zone Presence",
             "DATA": {
                 "0": "None noted",
@@ -4624,7 +4624,7 @@
         "sidewalk": {
             "TYPE": 1.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Sidewalk Presence",
             "DATA": {
                 "0": "None noted",
@@ -4635,7 +4635,7 @@
         "train_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Train Involved",
             "DATA": {
                 "0": "No",
@@ -4645,7 +4645,7 @@
         "wildlife_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Wildlife Involved",
             "DATA": {
                 "0": "No",
@@ -4655,7 +4655,7 @@
         "rotr_fars": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Run Off the Road Involved\n(FARS data)",
             "DATA": {
                 "0": "No",
@@ -4665,7 +4665,7 @@
         "intersect_fars": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Intersection Involved\n(FARS data)",
             "DATA": {
                 "0": "No",
@@ -4675,7 +4675,7 @@
         "dd_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drinking Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4685,7 +4685,7 @@
         "aid_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Impaired Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4695,7 +4695,7 @@
         "dpd_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Positive Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4705,7 +4705,7 @@
         "id_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Impaired Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4715,7 +4715,7 @@
         "mj_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Marijuana Positive Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4725,7 +4725,7 @@
         "impnm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Impaired Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -4735,7 +4735,7 @@
         "ainm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Alcohol Impaired Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -4745,7 +4745,7 @@
         "dpnm_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug Positive Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -4755,7 +4755,7 @@
         "speed_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Speeding Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4765,7 +4765,7 @@
         "unlic_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unlicensed Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4775,7 +4775,7 @@
         "unendmc_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unendorsed Motorcyclist-Involved",
             "DATA": {
                 "0": "No",
@@ -4785,7 +4785,7 @@
         "drowsy_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drowsy Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4795,7 +4795,7 @@
         "drdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Distracted Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4805,7 +4805,7 @@
         "nmdist_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Distracted Nonmotorist-Involved",
             "DATA": {
                 "0": "No",
@@ -4815,7 +4815,7 @@
         "fty_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Involved Driver Failing to Yield Right-of-Way",
             "DATA": {
                 "0": "No",
@@ -4825,7 +4825,7 @@
         "unrestfat_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unrestrained Occupant Fatality-Involved",
             "DATA": {
                 "0": "No",
@@ -4835,7 +4835,7 @@
         "dr1617_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "16-17 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4845,7 +4845,7 @@
         "dr1820_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "18-20 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4855,7 +4855,7 @@
         "dr1620_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "16-20 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4865,7 +4865,7 @@
         "dr2125_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "21-25 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4875,7 +4875,7 @@
         "dr1625_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "16-25 Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4885,7 +4885,7 @@
         "dr65_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "65+ Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4893,9 +4893,9 @@
             }
         },
         "dr70_inv": {
-            "TYPE": NaN,
-            "LENGTH": NaN,
-            "FORMAT": NaN,
+            "TYPE": "String",
+            "LENGTH": "String",
+            "FORMAT": "String",
             "LABEL": "70+ Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4905,7 +4905,7 @@
         "dr75_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "75+ Year Old Driver-Involved",
             "DATA": {
                 "0": "No",
@@ -4915,7 +4915,7 @@
         "mc_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Motorcycle-Involved",
             "DATA": {
                 "0": "No",
@@ -4925,7 +4925,7 @@
         "pv_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Passenger Vehicle-Involved",
             "DATA": {
                 "0": "No",
@@ -4935,7 +4935,7 @@
         "ht_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Heavy Truck-Involved",
             "DATA": {
                 "0": "No",
@@ -4945,7 +4945,7 @@
         "ped_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Pedestrian-Involved",
             "DATA": {
                 "0": "No",
@@ -4955,7 +4955,7 @@
         "bike_inv": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Bicyclist-Involved",
             "DATA": {
                 "0": "No",
@@ -4965,7 +4965,7 @@
         "unrest_fat": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unrestrained Passenger-Vehicle Occupant Fatality",
             "DATA": {
                 "0": "No",
@@ -4975,7 +4975,7 @@
         "mc_fat": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Motorcyclist Fatality",
             "DATA": {
                 "0": "No",
@@ -4985,7 +4985,7 @@
         "unhelmet_mc": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unhelmeted Motorcyclist-Involved",
             "DATA": {
                 "0": "No",
@@ -4995,7 +4995,7 @@
         "pv_fat": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Passenger Vehicle Occupant Fatality",
             "DATA": {
                 "0": "No",
@@ -5005,7 +5005,7 @@
         "ht_fat": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Heavy Truck Occupant Fatality",
             "DATA": {
                 "0": "No",
@@ -5015,7 +5015,7 @@
         "ped_fat": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Pedestrian Fatality",
             "DATA": {
                 "0": "No",
@@ -5025,7 +5025,7 @@
         "bike_fat": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Bicyclist Fatality",
             "DATA": {
                 "0": "No",
@@ -5035,7 +5035,7 @@
         "dr_alc7": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": ".01-.079 Driver ",
             "DATA": {
                 "0": "No",
@@ -5045,7 +5045,7 @@
         "dr_alc8": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": ".08+ Driver ",
             "DATA": {
                 "0": "No",
@@ -5055,7 +5055,7 @@
         "dr_drug": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug-Positive Driver",
             "DATA": {
                 "0": "No",
@@ -5065,7 +5065,7 @@
         "dr_imp": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug-Positive or Alc-ImpairedDriver",
             "DATA": {
                 "0": "No",
@@ -5075,7 +5075,7 @@
         "dr_dist": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Distracted Driver",
             "DATA": {
                 "0": "No",
@@ -5085,7 +5085,7 @@
         "dr_spd": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Speeding Driver",
             "DATA": {
                 "0": "No",
@@ -5095,7 +5095,7 @@
         "dr_fty": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Driver who Failed to Yield Right-of-Way",
             "DATA": {
                 "0": "No",
@@ -5105,7 +5105,7 @@
         "dr_unlic": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Unlicensed Driver",
             "DATA": {
                 "0": "No",
@@ -5115,7 +5115,7 @@
         "dr_alc7only": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": ".01-.079 Driver - No Drugs",
             "DATA": {
                 "0": "No",
@@ -5125,7 +5125,7 @@
         "dr_alc8only": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": ".08+ Driver - No Drugs",
             "DATA": {
                 "0": "No",
@@ -5135,7 +5135,7 @@
         "dr_drugonly": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug-Positive Driver - No Alcohol",
             "DATA": {
                 "0": "No",
@@ -5145,7 +5145,7 @@
         "dr_drink": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drinking Driver",
             "DATA": {
                 "0": "No",
@@ -5153,10 +5153,10 @@
             }
         },
         "nm_imp": {
-            "TYPE": NaN,
-            "LENGTH": NaN,
-            "FORMAT": NaN,
-            "LABEL": NaN,
+            "TYPE": "String",
+            "LENGTH": "String",
+            "FORMAT": "String",
+            "LABEL": "String",
             "DATA": {
                 "0": "No",
                 "1": "Yes"
@@ -5165,7 +5165,7 @@
         "nm_alc7": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": ".01-.079 Nonmotorist ",
             "DATA": {
                 "0": "No",
@@ -5175,7 +5175,7 @@
         "nm_alc8": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": ".08+ Nonmotorist ",
             "DATA": {
                 "0": "No",
@@ -5185,7 +5185,7 @@
         "nm_drug": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Drug-Positive Nonmotorist",
             "DATA": {
                 "0": "No",
@@ -5195,7 +5195,7 @@
         "nm_dist": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Distracted Nonmotorist",
             "DATA": {
                 "0": "No",
@@ -5205,21 +5205,21 @@
         "agegrp1": {
             "TYPE": 2.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Age Group 1",
             "DATA": {}
         },
         "agegrp2": {
             "TYPE": 2.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Age Group 2",
             "DATA": {}
         },
         "roadclass": {
             "TYPE": 2.0,
             "LENGTH": 15.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Road Class",
             "DATA": {
                 "1": "Interstate",
@@ -5236,7 +5236,7 @@
         "urbrur": {
             "TYPE": 2.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Urban-Rural Classification",
             "DATA": {
                 "R": "Rural",
@@ -5247,7 +5247,7 @@
         "dayweek": {
             "TYPE": 2.0,
             "LENGTH": 12.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Day of Week",
             "DATA": {
                 "1": "Sunday",
@@ -5262,7 +5262,7 @@
         "restuse": {
             "TYPE": 2.0,
             "LENGTH": 15.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Occupant Restraint Use",
             "DATA": {
                 "0":"Not Used",
@@ -5284,7 +5284,7 @@
         "vehtype": {
             "TYPE": 2.0,
             "LENGTH": 12.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Vehicle Type",
             "DATA": {
                 "PV": "passenger vehicle",
@@ -5299,7 +5299,7 @@
         "race_me": {
             "TYPE": 2.0,
             "LENGTH": 15.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Mutually-Exclusive Race Categories\n\n",
             "DATA": {
                 "Not Fatal": "Not Fatal",
@@ -5317,35 +5317,35 @@
         "CoRoadName": {
             "TYPE": 1.0,
             "LENGTH": 50.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - County Road Name",
             "DATA": {}
         },
         "CoMP": {
             "TYPE": 2.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - County Road Milepost",
             "DATA": {}
         },
         "IntCoRoadName": {
             "TYPE": 1.0,
             "LENGTH": 50.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - Intersecting County Road Name",
             "DATA": {}
         },
         "IntCoMP": {
             "TYPE": 2.0,
             "LENGTH": 8.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "CRAB - Intersecting County Road Milepost",
             "DATA": {}
         },
         "intersect": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Intersection Involved",
             "DATA": {
                 "0": "No",
@@ -5355,7 +5355,7 @@
         "lanedep": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Lane-Departure",
             "DATA": {
                 "0": "No",
@@ -5365,7 +5365,7 @@
         "oppdir": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Head-on Involved",
             "DATA": {
                 "0": "No",
@@ -5375,7 +5375,7 @@
         "wrongway": {
             "TYPE": 1.0,
             "LENGTH": 3.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Wrongway Crash",
             "DATA": {
                 "0": "No",
@@ -5385,28 +5385,28 @@
         "rep_typ": {
             "TYPE": 2.0,
             "LENGTH": 24.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Report Type",
             "DATA": {}
         },
         "investag": {
             "TYPE": 2.0,
             "LENGTH": 26.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Investigating Agency Level",
             "DATA": {}
         },
         "repag_long": {
             "TYPE": 2.0,
             "LENGTH": 35.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Investigating Agency",
             "DATA": {}
         },
         "rotr": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Run Off the Road (CLAS)",
             "DATA": {
                 "0": "No",
@@ -5416,7 +5416,7 @@
         "st_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "State Road (Interstate, State Route, US Hwy)",
             "DATA": {
                 "0": "No",
@@ -5426,7 +5426,7 @@
         "cty_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "County Road",
             "DATA": {
                 "0": "No",
@@ -5436,7 +5436,7 @@
         "city_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "City Road",
             "DATA": {
                 "0": "No",
@@ -5446,7 +5446,7 @@
         "oth_rd": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Other Road",
             "DATA": {
                 "0": "No",
@@ -5456,7 +5456,7 @@
         "lab": {
             "TYPE": 2.0,
             "LENGTH": 5.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Lab",
             "DATA": {
                 "nms": "Drug Results from NMS Labs",
@@ -5466,14 +5466,14 @@
         "drug_thc": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Delta-9-THC",
             "DATA": {}
         },
         "thc_res": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Delta-9-THC  Result",
             "DATA": {
                 "1-100": "-   Actual THC result in ng/ml of blood",
@@ -5483,14 +5483,14 @@
         "drug_cthc": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Carboxy-THC",
             "DATA": {}
         },
         "cthc_res": {
             "TYPE": 1.0,
             "LENGTH": 1.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Carboxy-THC Result",
             "DATA": {
                 "1-500": "-   Actual carboxy-THC result in ng/ml of blood",
@@ -5502,7 +5502,7 @@
         "drug_cann": {
             "TYPE": 2.0,
             "LENGTH": 30.0,
-            "FORMAT": NaN,
+            "FORMAT": "String",
             "LABEL": "Positive for Cannabinoids Type Unk",
             "DATA": {}
         }
@@ -6911,7 +6911,6 @@
             "91": "Non-Traffic Violation Charged",
             "92": "Other Non-Moving Traffic Violation",
             "93": "Cellular Telephone",
-            "94": "Cellular Telephone in Use",
             "95": "Fire Personnel",
             "29": "Intentional Illegal Driving on Road Shoulder, in Ditch, on Sidewalk or  Median",
             "30": "Making Improper Entry To or Exit From Trafficway",
