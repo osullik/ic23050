@@ -76,6 +76,10 @@
 	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* 
 	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes*
 		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes
+			- **Answer**
+				- *Out Of Home Zip Crashes: (% of all crashes)* (1) 9.075% Pedestrian in Road, (2) 8.664% From Opposite Direction Over Left Lane Line (3) 6.050% Off The Edge of The Road on the Right Side
+				- *In Zip Crashes (% of all Crashes)* (1) 2.856% From Opposite Direction Over Left Lane Line, (2) 2.202% Off The Edge of The Road on the Right Side, (3) 2.130% Pedestrian in Road
+				- As Proportion of total, they are both consistent types of accident. As proportion of each type of crash, they are also consistently the three biggest. 
 		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes
 		- [ ] What are the demographics of the Highest Crash Rate ZIPs
 		- [ ] What are the demographics of the lowest Crash Rate ZIPs
