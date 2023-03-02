@@ -81,7 +81,8 @@
 		- *Out Of Home Zip Crashes: (% of all crashes)* (1) 9.075% Pedestrian in Road, (2) 8.664% From Opposite Direction Over Left Lane Line (3) 6.050% Off The Edge of The Road on the Right Side
 		- *In Zip Crashes (% of all Crashes)* (1) 2.856% From Opposite Direction Over Left Lane Line, (2) 2.202% Off The Edge of The Road on the Right Side, (3) 2.130% Pedestrian in Road
 		- As Proportion of total, they are both consistent types of accident. As proportion of each type of crash, they are also consistently the three biggest. 
-		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes
+		- [X] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes
+			- Not enough Data	
 		- [X] What are the demographics of the Highest Crash Rate ZIPs @Nicole
 			- No Defining Features by ZIP
 			- Commuting Population Weakly Correlates with high Crash Rate ZIP
@@ -89,37 +90,21 @@
 			- No Defining Features by ZIP
 			- Commuting Population Weakly Correlated with High Crash Rate ZIP
 		
-	- [ ] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute*
+	- [X] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute*
+		- People Crash more at Rush Hour	
 
-	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID*
+	- [X] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID*
+		-  Not enough data 
+	- [X] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID*
+		- No significant changes 
 
-	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID*
+- [X] Get Data From US Census @Harsh
+	- [X] Commuting Data By ZIP @Harsh
+	- [X] Employment Data By ZIP @Harsh
+	- [X] Schooling Data by ZIP @Harsh
 
-
-- [ ] Get Data From US Census
-	- [ ] Commuting Data By ZIP
-	- [ ] Employment Data By ZIP
-	- [ ] Schooling Data by ZIP
-	- [ ] Figure out how to collaborate on Tableau @Harsh
-	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Kent
-	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes* @Kent
-		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes @Kent
-		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes @Kent
-		- [ ] What are the demographics of the Highest Crash Rate ZIPs @Kent
-		- [ ] What are the demographics of the lowest Crash Rate ZIPs @Kent
-	- [X] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute* @Nicole
-	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID* @Kent
-	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID* @Kent
-	- [X] Is there a Correlation between alcohol and time of day. @Nicole
-	- [X] Is there a correlation between animal strikes and time of day. @Nicole
-
-
-- [ ] Get Data From US Census @Harsh
-	- [ ] Commuting Data By ZIP @Harsh
-	- [ ] Employment Data By ZIP @Harsh
-	- [ ] Schooling Data by ZIP @Harsh
-
-- [ ] Embed in a web page / interactive workbook @harsh
+- [X] Embed in a web page / interactive workbook @harsh
+	- Tableau Dashboard
 
 - [X] Write Abstract **(DUE 02 1200 Mar 23)**
 
