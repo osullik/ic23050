@@ -72,7 +72,8 @@
 		- [X] Tables9
 
 - [ ] Tableau Analysis
-	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* 
+	- [X] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Kent
+		- Complete. Some clustering apparent for driver home ZIP, NSTR for crash location overall.  
 	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes*
 		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes
 			- **Answer**
