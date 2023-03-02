@@ -4220,9 +4220,7 @@
         "52": "Operator Inexperience ",
         "53": "Unfamiliar with Roadway ",
         "54":"Stopping in Roadway",
-        "55":"Underriding Parked Truck (through 2008)",
         "55":"Improper Management of Vehicle Controls (Since 2017)",
-        "56":"Improper Tire Pressure (through 2005)",
         "56":"Object Interference with Vehicle Controls (since 2017) ",
         "57": "Driving with tire-related problems",
         "58":"Overcorrecting",
@@ -4238,7 +4236,7 @@
         "68":"Vision Obscured By: Splash/Spray from Passing Vehicle",
         "69":"Vision Obscured By: Inadequate Defrost/Defog System",
         "70":"Vision Obscured By: Inadequate Vehicle Lighting",
-        "71":"Vision Obscured By: Obstructing Angles on Vehicle",
+        "71":"Vision Obscured By: Obstructing Angles on Vehicle"
     },
     "drf2": {
         "0": "No factors identified for this driver",
@@ -4315,9 +4313,7 @@
         "52": "Operator Inexperience ",
         "53": "Unfamiliar with Roadway ",
         "54":"Stopping in Roadway",
-        "55":"Underriding Parked Truck (through 2008)",
         "55":"Improper Management of Vehicle Controls (Since 2017)",
-        "56":"Improper Tire Pressure (through 2005)",
         "56":"Object Interference with Vehicle Controls (since 2017) ",
         "57": "Driving with tire-related problems",
         "58":"Overcorrecting",
@@ -4333,7 +4329,7 @@
         "68":"Vision Obscured By: Splash/Spray from Passing Vehicle",
         "69":"Vision Obscured By: Inadequate Defrost/Defog System",
         "70":"Vision Obscured By: Inadequate Vehicle Lighting",
-        "71":"Vision Obscured By: Obstructing Angles on Vehicle",
+        "71":"Vision Obscured By: Obstructing Angles on Vehicle"
     },
     "drf3": {
         "0": "No factors identified for this driver",
@@ -4410,10 +4406,8 @@
         "52": "Operator Inexperience ",
         "53": "Unfamiliar with Roadway ",
         "54":"Stopping in Roadway",
-        "55":"Underriding Parked Truck (through 2008)",
         "55":"Improper Management of Vehicle Controls (Since 2017)",
         "56":"Improper Tire Pressure (through 2005)",
-        "56":"Object Interference with Vehicle Controls (since 2017) ",
         "57": "Driving with tire-related problems",
         "58":"Overcorrecting",
         "59":"Getting Off/Out of or On/Into a Moving Vehicle",
@@ -4428,7 +4422,7 @@
         "68":"Vision Obscured By: Splash/Spray from Passing Vehicle",
         "69":"Vision Obscured By: Inadequate Defrost/Defog System",
         "70":"Vision Obscured By: Inadequate Vehicle Lighting",
-        "71":"Vision Obscured By: Obstructing Angles on Vehicle",
+        "71":"Vision Obscured By: Obstructing Angles on Vehicle"
     },
     "drf4": {
         "0": "No factors identified for this driver",
@@ -4505,9 +4499,7 @@
         "52": "Operator Inexperience ",
         "53": "Unfamiliar with Roadway ",
         "54":"Stopping in Roadway",
-        "55":"Underriding Parked Truck (through 2008)",
         "55":"Improper Management of Vehicle Controls (Since 2017)",
-        "56":"Improper Tire Pressure (through 2005)",
         "56":"Object Interference with Vehicle Controls (since 2017) ",
         "57": "Driving with tire-related problems",
         "58":"Overcorrecting",
@@ -4523,7 +4515,7 @@
         "68":"Vision Obscured By: Splash/Spray from Passing Vehicle",
         "69":"Vision Obscured By: Inadequate Defrost/Defog System",
         "70":"Vision Obscured By: Inadequate Vehicle Lighting",
-        "71":"Vision Obscured By: Obstructing Angles on Vehicle",
+        "71":"Vision Obscured By: Obstructing Angles on Vehicle"
     },
     "distract1": {
         "0": "Not Distracted",
