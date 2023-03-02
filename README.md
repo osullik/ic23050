@@ -29,9 +29,9 @@
 
 - [X] **25 1130 Feb 23:** Problem Brief
 - [X] **25 Feb 23:** Geocoding Complete
-- [ ] **26 Feb 23:** Data Cleaning Complete
+- [X] **26 Feb 23:** Data Cleaning Complete
 
-- [ ] **02 1200 Mar 23:** 250 Word abstract due to Judges
+- [X] **02 1200 Mar 23:** 250 Word abstract due to Judges
 - [ ] **03 1600 Mar 23:** Full Rehearsal of Presentation 
 - [ ] **04 1000 Mar 23:** Judging Day Begins
  
@@ -72,7 +72,6 @@
 		- [X] Tables9
 
 - [ ] Tableau Analysis
-<<<<<<< HEAD
 	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* 
 	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes*
 		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes
@@ -92,19 +91,18 @@
 	- [ ] Commuting Data By ZIP
 	- [ ] Employment Data By ZIP
 	- [ ] Schooling Data by ZIP
-=======
 	- [ ] Figure out how to collaborate on Tableau @Harsh
-	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Nicole
-	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes* @Nicole
+	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Kent
+	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes* @Kent
 		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes @Kent
 		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes @Kent
 		- [ ] What are the demographics of the Highest Crash Rate ZIPs @Kent
 		- [ ] What are the demographics of the lowest Crash Rate ZIPs @Kent
-	- [ ] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute* @Kent
+	- [X] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute* @Nicole
 	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID* @Kent
 	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID* @Kent
-	- [ ] Is there a Correlation between alcohol and time of day. @Nicole
-	- [ ] Is there a correlation between animal strikes and time of day. @Nicole
+	- [X] Is there a Correlation between alcohol and time of day. @Nicole
+	- [X] Is there a correlation between animal strikes and time of day. @Nicole
 
 
 - [ ] Get Data From US Census @Harsh
@@ -113,9 +111,8 @@
 	- [ ] Schooling Data by ZIP @Harsh
 
 - [ ] Embed in a web page / interactive workbook @harsh
->>>>>>> 292a0542424c570bdbee2742a34d2bdd8bc257c2
 
-- [ ] Write Abstract **(DUE 02 1200 Mar 23)**
+- [X] Write Abstract **(DUE 02 1200 Mar 23)**
 
 
 ## Links to Other Datasets:
