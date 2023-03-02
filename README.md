@@ -72,18 +72,27 @@
 		- [X] Tables9
 
 - [ ] Tableau Analysis
-	- [ ] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* 
-	- [ ] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes*
-		- [ ] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes
+	- [X] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Kent
+		- Complete. Some clustering apparent for driver home ZIP, NSTR for crash location overall.  
+	- [X] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes* @Kent
+		- Complete. 20% Crash in own ZIP, no real change Year on Year. 	
+	- [X] What Types of Crashes Are most common for In ZIP / Out of ZIP Crashes @Kent
 			- **Answer**
-				- *Out Of Home Zip Crashes: (% of all crashes)* (1) 9.075% Pedestrian in Road, (2) 8.664% From Opposite Direction Over Left Lane Line (3) 6.050% Off The Edge of The Road on the Right Side
-				- *In Zip Crashes (% of all Crashes)* (1) 2.856% From Opposite Direction Over Left Lane Line, (2) 2.202% Off The Edge of The Road on the Right Side, (3) 2.130% Pedestrian in Road
-				- As Proportion of total, they are both consistent types of accident. As proportion of each type of crash, they are also consistently the three biggest. 
+		- *Out Of Home Zip Crashes: (% of all crashes)* (1) 9.075% Pedestrian in Road, (2) 8.664% From Opposite Direction Over Left Lane Line (3) 6.050% Off The Edge of The Road on the Right Side
+		- *In Zip Crashes (% of all Crashes)* (1) 2.856% From Opposite Direction Over Left Lane Line, (2) 2.202% Off The Edge of The Road on the Right Side, (3) 2.130% Pedestrian in Road
+		- As Proportion of total, they are both consistent types of accident. As proportion of each type of crash, they are also consistently the three biggest. 
 		- [ ] What Types of Behavioural Factors are most common for In ZIP / Ourt of ZIP Crashes
-		- [ ] What are the demographics of the Highest Crash Rate ZIPs
-		- [ ] What are the demographics of the lowest Crash Rate ZIPs
+		- [X] What are the demographics of the Highest Crash Rate ZIPs @Nicole
+			- No Defining Features by ZIP
+			- Commuting Population Weakly Correlates with high Crash Rate ZIP
+		- [X] What are the demographics of the lowest Crash Rate ZIPs @Nicole
+			- No Defining Features by ZIP
+			- Commuting Population Weakly Correlated with High Crash Rate ZIP
+		
 	- [ ] Generate Graphic Showing Crash Concentration by Time of Day || *Hypothesis: People Crash on their way home after a long commute*
+
 	- [ ] Generate Graphic Showing Crash relation to driver distraction || *Hypothesis: People Take More Zoom Calls while driving since COVID*
+
 	- [ ] Generate Graphic Showing the change over time (I.e. Add a Time-bar slider) || *Hypothesis: Traffic Fatalities have increased since COVID*
 
 
