@@ -15,13 +15,13 @@ https://public.tableau.com/views/IC23050-WTSCL4/Story1?:language=en-US&:display_
 Our philosophy in approaching the challenge was to give the WTSC the tools they need to continue working on the problem after the challenge ends. To that end we present: 
 
 ### The Enriched Notebook
-As described above, we have taken care of enriching the data with US Census information about demographics and commuting, as well as reverse geo-coding the crash locations as ZIP codes. 
+As described above, we have taken care of enriching the data with US Census information about demographics and commuting, as well as reverse geo-coding the crash locations as ZIP codes. This is intended to be used in tableau and can be saved to a local machine and opened by clicking on the .twb file. (Note: the .hyper file must be in the same directory, that is the data that fuels the notebook)
 
 ### The self-help geocoder. 
-We provide two notebooks that we intend to be run in google colab that will allow the WTSC to conduct self-help reverse geocoding in the future. They spoke in their introduction brief about how this was a big limitation of theirs, so we make available to them the tools to solve it themselves in future. One notebook allows for a single (Lat,Long) to be converted to ZIP, and the other will accept a .CSV with a Lat (y) and Long (x) fields, geolocate them and append the ZIP code to the record. 
+We provide two notebooks that we intend to be run in google colab that will allow the WTSC to conduct self-help reverse geocoding in the future. They spoke in their introduction brief about how this was a big limitation of theirs, so we make available to them the tools to solve it themselves in future. One notebook allows for a single (Lat,Long) to be converted to ZIP, and the other will accept a .CSV with a Lat (y) and Long (x) fields, geolocate them and append the ZIP code to the record. To use on google collab, visit the collab website, and upload the .ipnb file to collab. This will allow users to interact with the workbook and follow the inbuilt instructions. 
 
 ### The Data-Dictionary. 
-The WTSC data dictionary is comprehensive but designed for a human user. We provide a .json encoding of the data dictionary. The .json contains around 20,000 key value pairs from the WTSC data dictionary that will allow future analysis and development to convert their encoded values into human-readable formats. If requested, we will package up the code we used to do the conversion from encoded to human-readable data using the data dictionary. It is currently located in the Analsis Artifacts / Data Cleaning directory. 
+The WTSC data dictionary is comprehensive but designed for a human user. We provide a .json encoding of the data dictionary. The .json contains around 20,000 key value pairs from the WTSC data dictionary that will allow future analysis and development to convert their encoded values into human-readable formats. If requested, we will package up the code we used to do the conversion from encoded to human-readable data using the data dictionary. It is currently located in the Analsis Artifacts / Data Cleaning directory.
 
 
 # Work Tracking:
