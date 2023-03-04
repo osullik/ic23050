@@ -1,5 +1,8 @@
 # ic23050
 
+## Link to interactice story on Tableau Public: 
+https://public.tableau.com/views/IC23050-WTSCL4/Story1?:language=en-US&:display_count=n&:origin=viz_share_link
+
 
 ## Challenge Questions:
 
