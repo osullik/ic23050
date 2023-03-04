@@ -20,10 +20,10 @@
 
 ## Goals:
 
-- [ ] Produce a report that addresses the answers to the two questions above. 
-- [ ] Prodice an interactive map to support the analysis and answers of the two questions above. 
-- [ ] Produce a tool that WTSC can use in future to convert reverse Geocode their data and become self-sufficient. 
-- [ ] Produce a presentation to communicate our findings. 
+- [X] Produce a report that addresses the answers to the two questions above. 
+- [X] Prodice an interactive map to support the analysis and answers of the two questions above. 
+- [X] Produce a tool that WTSC can use in future to convert reverse Geocode their data and become self-sufficient. 
+- [X] Produce a presentation to communicate our findings. 
 
 ## Timeline
 
@@ -32,8 +32,8 @@
 - [X] **26 Feb 23:** Data Cleaning Complete
 
 - [X] **02 1200 Mar 23:** 250 Word abstract due to Judges
-- [ ] **03 1600 Mar 23:** Full Rehearsal of Presentation 
-- [ ] **04 1000 Mar 23:** Judging Day Begins
+- [X] **03 1600 Mar 23:** Full Rehearsal of Presentation 
+- [X] **04 1000 Mar 23:** Judging Day Begins
  
 ## TO DO: 
 
