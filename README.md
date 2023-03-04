@@ -41,8 +41,8 @@
 	- [X] Google Maps API @Nicole -> Proceed with this
 	- [X] QGis Layer @Kent -> Have as backup
 
-- [ ] Data Cleaning
-	- [ ] Remove incomplete Records 
+- [X] Data Cleaning
+	- [X] Remove incomplete Records 
 	- [X] Get Full addresses for each Lat/Long @ Nicole
 
 - [X] Data Dictionary Encoding @Kent
@@ -71,7 +71,7 @@
 		- [X] Tables8
 		- [X] Tables9
 
-- [ ] Tableau Analysis
+- [X] Tableau Analysis
 	- [X] Generate Heatmaps of Crash Locations *Hypothesis: There are "black spots" where many crashes occur* @Kent
 		- Complete. Some clustering apparent for driver home ZIP, NSTR for crash location overall.  
 	- [X] Generate Graphic Showing which Crashes are In / Out of ZIP Codes *Hypothesis: Most People Crash within their own ZIP Codes* @Kent
